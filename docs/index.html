@@ -4,7 +4,7 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Gunbed FPS 배드워즈 전용 모드 설치기. 마인크래프트 버전을 선택하고 설치하세요. 기존 모드와 버전별 게임 폴더는 유지합니다.">
   <meta name="theme-color" content="#0c100e"><title>Gunbed — 모드 다운로드</title>
-  <link rel="stylesheet" href="style.css"><script src="app.js?v=0.3.1" defer></script>
+  <link rel="stylesheet" href="style.css"><script src="app.js?v=0.3.2" defer></script>
 </head>
 <body>
 <header class="header wrap">
@@ -22,7 +22,7 @@
   <p id="copy-status" class="sr-only" role="status"></p>
  </div>
  <div class="download" aria-labelledby="download-title">
-  <div class="card-top"><span class="eyebrow">01 / SELECT YOUR VERSION</span><span class="release">INSTALLER 0.3.1</span></div>
+  <div class="card-top"><span class="eyebrow">01 / SELECT YOUR VERSION</span><span class="release">INSTALLER 0.3.2</span></div>
   <h2 id="download-title">플레이할 버전을 선택하세요</h2>
   <p class="muted">모든 버전은 같은 gunbed 서버에 접속합니다.</p>
   <fieldset><legend>마인크래프트 버전</legend><div class="version-grid">
@@ -37,7 +37,7 @@
    <label><input type="radio" name="version" value="26.3"><span>26.3</span></label>
   </div></fieldset>
   <div class="selection"><span>선택한 버전 <strong id="chosen">1.21.8</strong></span><span>Fabric Loader <strong>0.19.5</strong></span></div>
-  <a id="download" class="download-button" href="https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.1/GunbedInstaller-1.21.8.exe"><span id="download-label">1.21.8 설치기 다운로드</span><span aria-hidden="true">↓</span></a>
+  <a id="download" class="download-button" href="https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.2/GunbedInstaller-1.21.8.exe"><span id="download-label">1.21.8 설치기 다운로드</span><span aria-hidden="true">↓</span></a>
   <p class="download-meta"><span id="download-size">가벼운 온라인 설치기</span> · 필요한 버전의 파일만 다운로드</p>
   <p class="preserve"><span aria-hidden="true">✓</span> 다른 모드는 유지 · 중복되는 필수 모드만 백업 후 교체</p>
  </div>
@@ -58,17 +58,17 @@
 <section id="help" class="help wrap">
  <div class="section-title"><p class="eyebrow">03 / GOOD TO KNOW</p><h2>설치 전에 궁금한 것.</h2></div>
  <div class="questions">
-  <details><summary>0.3.1으로 다시 설치해야 하나요?</summary><p>이번 서버 수정은 0.3.1 클라이언트가 필요합니다. 기존 게임 폴더를 선택해 다시 설치하세요. 경기 시작·리스폰 후 중앙 선택창에서 1번은 랜덤 무기, 2번은 즐겨찾기, 3번은 수동 선택입니다. 보조 기능 전용 무기는 오른쪽 클릭으로 해당 기능을 사용합니다.</p></details>
+  <details><summary>0.3.2으로 다시 설치해야 하나요?</summary><p>이번 서버 수정은 0.3.2 클라이언트가 필요합니다. 기존 게임 폴더를 선택해 다시 설치하세요. 경기 시작·리스폰 후 중앙 선택창에서 1번은 랜덤 무기, 2번은 즐겨찾기, 3번은 수동 선택입니다. 보조 기능 전용 무기는 오른쪽 클릭으로 해당 기능을 사용합니다.</p></details>
   <details><summary>기존 모드가 지워지나요?</summary><p>다른 모드·설정·월드는 유지합니다. Gunbed Visuals, Gunbed Assets, Fabric API, Nuit와 모드 ID가 같은 파일만 백업 후 교체합니다. 백업은 실제 <code>.minecraft/gunbed-backups</code>에 저장합니다.</p></details>
-  <details><summary>런처를 껐는데 실행 중이라고 나와요.</summary><p>0.3.1 설치기는 백그라운드에 남아 있는 Minecraft Launcher도 자동 종료합니다. Java나 마인크래프트 서버 프로세스는 강제 종료하지 않습니다. 권한이 부족하다는 오류가 나오면 설치기를 관리자 권한으로 실행하세요.</p></details>
+  <details><summary>런처를 껐는데 실행 중이라고 나와요.</summary><p>0.3.2 설치기는 백그라운드에 남아 있는 Minecraft Launcher도 자동 종료합니다. Java나 마인크래프트 서버 프로세스는 강제 종료하지 않습니다. 권한이 부족하다는 오류가 나오면 설치기를 관리자 권한으로 실행하세요.</p></details>
   <details><summary>버전별로 게임 폴더를 나눠서 쓰고 있어요.</summary><p>그대로 사용하세요. <code>.minecraft/1.21.8 mod/mods</code>를 선택하면 바로 그 mods 폴더에 설치합니다. Fabric Loader의 실행 파일만 실제 .minecraft에 설치하고, 실행 설정의 게임 폴더는 선택한 위치로 연결합니다.</p></details>
-  <details><summary>Fabric Loader 0.19.3 호환 오류가 나요.</summary><p>이전 설치기 대신 위의 0.3.1 설치기로 설치하세요. Loader 0.19.5를 함께 설치하고 기존 Fabric 실행 설정도 갱신합니다. 런처를 다시 열어 Gunbed 실행 설정을 선택하세요.</p></details>
+  <details><summary>Fabric Loader 0.19.3 호환 오류가 나요.</summary><p>이전 설치기 대신 위의 0.3.2 설치기로 설치하세요. Loader 0.19.5를 함께 설치하고 기존 Fabric 실행 설정도 갱신합니다. 런처를 다시 열어 Gunbed 실행 설정을 선택하세요.</p></details>
   <details><summary>무엇이 설치되나요?</summary><p>Gunbed Visuals, 공용 총기 에셋, Fabric API, Nuit 네 모드와 Fabric Loader 0.19.5입니다. 원본 TaCZ 런타임은 필요하지 않습니다. 기본 마인크래프트 런처 기준이며, 별도 인스턴스 관리 런처의 설정은 자동 변경하지 않습니다.</p></details>
  </div>
 </section>
 <section class="alternatives wrap">
  <div><h2>다른 다운로드</h2><p class="muted">인터넷이 없는 PC에는 전체 파일을 포함한 설치기를 옮겨 설치할 수 있습니다.</p></div>
- <div class="alternative-links"><a href="https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.1/GunbedInstaller-Offline.exe">전체 오프라인 설치기 ↗</a><a href="https://github.com/churigame1234-ux/gunbed-installer/releases/tag/v0.3.1">소스 · 라이선스 · SHA-256 ↗</a></div>
+ <div class="alternative-links"><a href="https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.2/GunbedInstaller-Offline.exe">전체 오프라인 설치기 ↗</a><a href="https://github.com/churigame1234-ux/gunbed-installer/releases/tag/v0.3.2">소스 · 라이선스 · SHA-256 ↗</a></div>
 </section>
 </main>
 <footer class="wrap"><span>GUNBED <small>BY MZS</small></span><p>팬 제작 서버용 모드 설치기입니다. Mojang 또는 Microsoft의 공식 제품이 아닙니다.</p><a href="https://github.com/churigame1234-ux/gunbed-installer">GitHub ↗</a></footer>

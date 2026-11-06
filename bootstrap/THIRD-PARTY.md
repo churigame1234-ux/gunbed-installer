@@ -25,3 +25,8 @@ are included in `source/Nuit-Gunbed-ports.zip`. Other Nuit JARs are unmodified u
 Nuit renders metadata converted from the user's local Dewier pack; the original
 image files remain unchanged. That user-supplied pack is delivered separately
 as the server resource pack, not inside these client mod JARs.
+
+
+## TRG-21 reference model and sounds
+
+TRG-21 Infinity D geometry, UVs and four skeletal clips: Tettra / Jeongtae Kim; textures: CryTek. Original game: Sudden Attack. Public source: https://blog.jeongtae.com/css-서든어택-trg21인피니티d-스킨-완성-배포/ . Original attribution is retained; these artworks are not relicensed under the client code GPL. Classic DTX texture was supplied by the server owner; its pixels remain unchanged after format decoding. Minecraft player skin is rendered separately and follows the imported arm bones. Source engine binary layouts were consulted from ValveSoftware/source-sdk-2013; no Source engine runtime code is included.
