@@ -34,3 +34,6 @@ TRG-21 Infinity D geometry, UVs and four skeletal clips: Tettra / Jeongtae Kim; 
 
 ## Classic TRG reference update (0.3.4)
 The supplied MiniSudden standalone pack contains TRG-shaped DirectX meshes named mk23.x/mk23sd.x and their mk23.bmp texture. The Gunbed converter retains the mesh topology and UVs, rigs its magazine and bolt, and uses the player's Minecraft skin for native Minecraft block-arm rendering. The JTK donor rig is retimed using observed landmarks in the user-provided review https://www.youtube.com/watch?v=UzyyS6ncmMU . Original Sudden Attack animation data was not supplied; these are adapted poses. No silenced shot audio from the review is included. The existing normal TRG shot is retained.
+
+## Gunbed renewal assets (0.3.6)
+QA grenade/incendiary/flashbang models and sheet textures are converted from the server owner’s local zombie-server resource pack. Churi team equipment and selected team block textures are copied from the owner’s local Churi pack. Turret silhouettes are adapted from the four owner-supplied model archives; these artworks retain their original ownership and are not relicensed as client code. ThrowablePose is newly authored Gunbed code.

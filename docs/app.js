@@ -1,5 +1,5 @@
 'use strict';
-const base='https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.5/';
+const base='https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.6/';
 const controls=[...document.querySelectorAll('input[name="version"]')];
 function choose(version){
  if(!controls.some(input=>input.value===version))return;
@@ -15,4 +15,4 @@ document.getElementById('server').addEventListener('click',async()=>{
  try{await navigator.clipboard.writeText('mzs123.mcv.kr');document.querySelector('.copy-label').textContent='복사 완료 ✓';document.getElementById('copy-status').textContent='서버 주소를 복사했습니다.';setTimeout(()=>document.querySelector('.copy-label').textContent='주소 복사 ⧉',2500)}
  catch{document.querySelector('.copy-label').textContent='mzs123.mcv.kr';document.getElementById('copy-status').textContent='서버 주소: mzs123.mcv.kr'}
 });
-fetch('downloads.json?v=0.3.5').then(response=>{if(!response.ok)throw Error('metadata');return response.json()}).then(data=>{document.getElementById('download-size').textContent=(data.online_bytes/1048576).toFixed(1)+' MB · Windows EXE'}).catch(()=>{});
+fetch('downloads.json?v=0.3.6').then(response=>{if(!response.ok)throw Error('metadata');return response.json()}).then(data=>{document.getElementById('download-size').textContent=(data.online_bytes/1048576).toFixed(1)+' MB · Windows EXE'}).catch(()=>{});
