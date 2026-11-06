@@ -90,17 +90,20 @@ class Installer:
         libraries=[(entry,self.verified(entry['path'],entry['sha256'])) for entry in chosen['libraries']]
         old_profiles=self.profiles(root)
         originals={};duplicates=[];untouched={};readonly={}
+        def existing_mod_bytes(path):
+            try:return path.read_bytes()
+            except PermissionError as error:raise access_error(path,error) from error
         for path in mods.glob('*.jar'):
             if path.resolve().parent!=mods.resolve():raise ValueError('연결된 모드 파일은 자동으로 교체하지 않습니다: '+path.name)
-            data=path.read_bytes();identity=mod_id(data)
+            data=existing_mod_bytes(path);identity=mod_id(data)
             if identity in IDS:
                 if path.name!=incoming[identity][0] or data!=incoming[identity][1]:duplicates.append(path)
             else:untouched[path.name]=digest(data)
         for name,data in incoming.values():
             existing=mods/name
-            if existing.exists() and mod_id(existing.read_bytes()) not in IDS:raise ValueError('다른 모드가 같은 파일명을 사용합니다. 보존을 위해 설치를 중단합니다: '+name)
+            if existing.exists() and mod_id(existing_mod_bytes(existing)) not in IDS:raise ValueError('다른 모드가 같은 파일명을 사용합니다. 보존을 위해 설치를 중단합니다: '+name)
         log('기존 모드 파일의 사용 중 여부와 폴더 쓰기 권한 확인 중…')
-        preflight_files(duplicates+[mods/name for name,data in incoming.values() if (mods/name).exists() and (mods/name).read_bytes()!=data])
+        preflight_files(duplicates+[mods/name for name,data in incoming.values() if (mods/name).exists() and existing_mod_bytes(mods/name)!=data])
         probe_directory(mods)
         stamp=datetime.datetime.now().strftime('%Y%m%d-%H%M%S')+'-'+uuid.uuid4().hex[:6]
         backup=root/'gunbed-backups'/stamp

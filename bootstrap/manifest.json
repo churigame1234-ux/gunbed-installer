@@ -9,25 +9,25 @@
           "file": "fabric-api-0.136.1+1.21.8.jar",
           "path": "1.21.8/mods/fabric-api-0.136.1+1.21.8.jar",
           "sha256": "24c2c9c7fa1f969982ddf142a5f17b356b88a5eb1cb1ece9c287a588f3451233",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-api-0.136.1+1.21.8.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-api-0.136.1+1.21.8.jar"
         },
         {
-          "file": "GunbedVisuals-1.21.8-0.3.2.jar",
-          "path": "1.21.8/mods/GunbedVisuals-1.21.8-0.3.2.jar",
-          "sha256": "adf643cdcb28245b8d4cf826fbcdd3e63845cda2e31398af9d794234b0f0ee38",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedVisuals-1.21.8-0.3.2.jar"
+          "file": "GunbedVisuals-1.21.8-0.3.4.jar",
+          "path": "1.21.8/mods/GunbedVisuals-1.21.8-0.3.4.jar",
+          "sha256": "174b680da2bbf3afd63fe52c09a6c84311384f3760c8b10e50a7c8575d327dbf",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedVisuals-1.21.8-0.3.4.jar"
         },
         {
           "file": "nuit-fabric-1.0.0-beta.1+mc1.21.8.jar",
           "path": "1.21.8/mods/nuit-fabric-1.0.0-beta.1+mc1.21.8.jar",
           "sha256": "6c32e2e0cfcab8196750b10361d5e9bec9e008b7ba3db63131f673e070e43d63",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/nuit-fabric-1.0.0-beta.1+mc1.21.8.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/nuit-fabric-1.0.0-beta.1+mc1.21.8.jar"
         },
         {
-          "file": "GunbedAssets-0.3.2.jar",
-          "path": "공통/mods/GunbedAssets-0.3.2.jar",
-          "sha256": "4ec9dd7b0e2999354012809d4e1fae97c32309c38204ece9e2dea3f4a1f56efc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedAssets-0.3.2.jar"
+          "file": "GunbedAssets-0.3.4.jar",
+          "path": "공통/mods/GunbedAssets-0.3.4.jar",
+          "sha256": "70502ab901faee5f57c5962e699f21caec78818e925fedd9761ef7349a1702f9",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedAssets-0.3.4.jar"
         }
       ],
       "libraries": [
@@ -35,49 +35,49 @@
           "path": "libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "target": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "sha256": "ed825d10ab1399c8c0cb669e688cf0c8c82629b4c8399b58352b68e92ca10fcb",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "target": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "sha256": "dede75a21306b65974ecd8f87114ff6970f09fb794157a4ca09ab25c888c2bfc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-analysis-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-analysis-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "target": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "sha256": "6d0abefb7cbf972ea16edb37ec14835372505063a45f976ab7ea889ed9497895",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-commons-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-commons-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "target": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "sha256": "3dfb0d5b6a106cd40b5b250e39935fbf2f927f4477546a5369a3ac609cf0506b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-tree-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-tree-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "target": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "sha256": "1bb99d091fba2597dc6d51193e9bbcf0d8447e7ed96bd8f0198b18152f09655c",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-util-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-util-9.10.1.jar"
         },
         {
           "path": "libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "target": "net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "sha256": "1f0ae44db7295f8626f33b1dc0ad7f043d8954a8d6847247875fcc5dfcecc934",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
         },
         {
           "path": "libraries/net/fabricmc/intermediary/1.21.8/intermediary-1.21.8.jar",
           "target": "net/fabricmc/intermediary/1.21.8/intermediary-1.21.8.jar",
           "sha256": "6e20d89719a0239ef93e9ee2548f1e45b61b186676d615127015474b06647395",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-intermediary-1.21.8.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-intermediary-1.21.8.jar"
         },
         {
           "path": "libraries/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "target": "net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-fabric-loader-0.19.5.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-fabric-loader-0.19.5.jar"
         }
       ]
     },
@@ -89,25 +89,25 @@
           "file": "fabric-api-0.134.1+1.21.9.jar",
           "path": "1.21.9/mods/fabric-api-0.134.1+1.21.9.jar",
           "sha256": "43e7bf24789b5d841690d942efc274478a50fbfd943e8838f8fbc4de8162a970",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-api-0.134.1+1.21.9.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-api-0.134.1+1.21.9.jar"
         },
         {
-          "file": "GunbedVisuals-1.21.9-0.3.2.jar",
-          "path": "1.21.9/mods/GunbedVisuals-1.21.9-0.3.2.jar",
-          "sha256": "591742d54e627cf05c6f0f87a2a9c9b692d88984be3f81a520abbe8a4d9b2265",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedVisuals-1.21.9-0.3.2.jar"
+          "file": "GunbedVisuals-1.21.9-0.3.4.jar",
+          "path": "1.21.9/mods/GunbedVisuals-1.21.9-0.3.4.jar",
+          "sha256": "05ee4d246071a0affa04ef38183319caa336bc21365a1adab05e71bd5c2b7018",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedVisuals-1.21.9-0.3.4.jar"
         },
         {
           "file": "nuit-fabric-1.21.9-1.0.0-beta.1+gunbed.1.21.9.jar",
           "path": "1.21.9/mods/nuit-fabric-1.21.9-1.0.0-beta.1+gunbed.1.21.9.jar",
           "sha256": "790236a179ef8d2a80be355af7d4138e428a23acf1ebe39930a9c68484276fa4",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/nuit-fabric-1.21.9-1.0.0-beta.1+gunbed.1.21.9.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/nuit-fabric-1.21.9-1.0.0-beta.1+gunbed.1.21.9.jar"
         },
         {
-          "file": "GunbedAssets-0.3.2.jar",
-          "path": "공통/mods/GunbedAssets-0.3.2.jar",
-          "sha256": "4ec9dd7b0e2999354012809d4e1fae97c32309c38204ece9e2dea3f4a1f56efc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedAssets-0.3.2.jar"
+          "file": "GunbedAssets-0.3.4.jar",
+          "path": "공통/mods/GunbedAssets-0.3.4.jar",
+          "sha256": "70502ab901faee5f57c5962e699f21caec78818e925fedd9761ef7349a1702f9",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedAssets-0.3.4.jar"
         }
       ],
       "libraries": [
@@ -115,49 +115,49 @@
           "path": "libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "target": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "sha256": "ed825d10ab1399c8c0cb669e688cf0c8c82629b4c8399b58352b68e92ca10fcb",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "target": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "sha256": "dede75a21306b65974ecd8f87114ff6970f09fb794157a4ca09ab25c888c2bfc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-analysis-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-analysis-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "target": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "sha256": "6d0abefb7cbf972ea16edb37ec14835372505063a45f976ab7ea889ed9497895",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-commons-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-commons-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "target": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "sha256": "3dfb0d5b6a106cd40b5b250e39935fbf2f927f4477546a5369a3ac609cf0506b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-tree-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-tree-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "target": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "sha256": "1bb99d091fba2597dc6d51193e9bbcf0d8447e7ed96bd8f0198b18152f09655c",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-util-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-util-9.10.1.jar"
         },
         {
           "path": "libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "target": "net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "sha256": "1f0ae44db7295f8626f33b1dc0ad7f043d8954a8d6847247875fcc5dfcecc934",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
         },
         {
           "path": "libraries/net/fabricmc/intermediary/1.21.9/intermediary-1.21.9.jar",
           "target": "net/fabricmc/intermediary/1.21.9/intermediary-1.21.9.jar",
           "sha256": "f967f700e22c700e08d112b1605f3f5974d9a77ad1edbe10880fd930f8e3e047",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-intermediary-1.21.9.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-intermediary-1.21.9.jar"
         },
         {
           "path": "libraries/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "target": "net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-fabric-loader-0.19.5.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-fabric-loader-0.19.5.jar"
         }
       ]
     },
@@ -169,25 +169,25 @@
           "file": "fabric-api-0.138.4+1.21.10.jar",
           "path": "1.21.10/mods/fabric-api-0.138.4+1.21.10.jar",
           "sha256": "4dd5d07067d5cf3e874d2780806c3da223819d39b28d6296c1005a36f2d0a5e4",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-api-0.138.4+1.21.10.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-api-0.138.4+1.21.10.jar"
         },
         {
-          "file": "GunbedVisuals-1.21.10-0.3.2.jar",
-          "path": "1.21.10/mods/GunbedVisuals-1.21.10-0.3.2.jar",
-          "sha256": "d2c569eaffeaf941917210fff317446113fd4bc5408fb1157c5eab19d31dc8f3",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedVisuals-1.21.10-0.3.2.jar"
+          "file": "GunbedVisuals-1.21.10-0.3.4.jar",
+          "path": "1.21.10/mods/GunbedVisuals-1.21.10-0.3.4.jar",
+          "sha256": "483f8d49a18f652c6d8276eb84d37935099699764f58730cc384e82ab90496de",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedVisuals-1.21.10-0.3.4.jar"
         },
         {
           "file": "nuit-fabric-1.21.10-1.0.0-beta.1+gunbed.1.21.10.jar",
           "path": "1.21.10/mods/nuit-fabric-1.21.10-1.0.0-beta.1+gunbed.1.21.10.jar",
           "sha256": "4fc22d179dac8c09cbb3fda9ba8a9134da4c3240ce42585f279b00d2baebdfed",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/nuit-fabric-1.21.10-1.0.0-beta.1+gunbed.1.21.10.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/nuit-fabric-1.21.10-1.0.0-beta.1+gunbed.1.21.10.jar"
         },
         {
-          "file": "GunbedAssets-0.3.2.jar",
-          "path": "공통/mods/GunbedAssets-0.3.2.jar",
-          "sha256": "4ec9dd7b0e2999354012809d4e1fae97c32309c38204ece9e2dea3f4a1f56efc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedAssets-0.3.2.jar"
+          "file": "GunbedAssets-0.3.4.jar",
+          "path": "공통/mods/GunbedAssets-0.3.4.jar",
+          "sha256": "70502ab901faee5f57c5962e699f21caec78818e925fedd9761ef7349a1702f9",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedAssets-0.3.4.jar"
         }
       ],
       "libraries": [
@@ -195,49 +195,49 @@
           "path": "libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "target": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "sha256": "ed825d10ab1399c8c0cb669e688cf0c8c82629b4c8399b58352b68e92ca10fcb",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "target": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "sha256": "dede75a21306b65974ecd8f87114ff6970f09fb794157a4ca09ab25c888c2bfc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-analysis-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-analysis-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "target": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "sha256": "6d0abefb7cbf972ea16edb37ec14835372505063a45f976ab7ea889ed9497895",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-commons-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-commons-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "target": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "sha256": "3dfb0d5b6a106cd40b5b250e39935fbf2f927f4477546a5369a3ac609cf0506b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-tree-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-tree-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "target": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "sha256": "1bb99d091fba2597dc6d51193e9bbcf0d8447e7ed96bd8f0198b18152f09655c",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-util-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-util-9.10.1.jar"
         },
         {
           "path": "libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "target": "net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "sha256": "1f0ae44db7295f8626f33b1dc0ad7f043d8954a8d6847247875fcc5dfcecc934",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
         },
         {
           "path": "libraries/net/fabricmc/intermediary/1.21.10/intermediary-1.21.10.jar",
           "target": "net/fabricmc/intermediary/1.21.10/intermediary-1.21.10.jar",
           "sha256": "d11ecd24a935d06d5d84de6cea0680248f4fdb0af01c6356537f654d30b179d3",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-intermediary-1.21.10.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-intermediary-1.21.10.jar"
         },
         {
           "path": "libraries/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "target": "net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-fabric-loader-0.19.5.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-fabric-loader-0.19.5.jar"
         }
       ]
     },
@@ -249,25 +249,25 @@
           "file": "fabric-api-0.141.6+1.21.11.jar",
           "path": "1.21.11/mods/fabric-api-0.141.6+1.21.11.jar",
           "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-api-0.141.6+1.21.11.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-api-0.141.6+1.21.11.jar"
         },
         {
-          "file": "GunbedVisuals-1.21.11-0.3.2.jar",
-          "path": "1.21.11/mods/GunbedVisuals-1.21.11-0.3.2.jar",
-          "sha256": "5fcc17ca8c7468276fe38c2bb4c3418dd5e9346c931846b4751507a0d11c43d4",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedVisuals-1.21.11-0.3.2.jar"
+          "file": "GunbedVisuals-1.21.11-0.3.4.jar",
+          "path": "1.21.11/mods/GunbedVisuals-1.21.11-0.3.4.jar",
+          "sha256": "017ceb28d1915a657d45691f3698e033b0ccffd4fcaa372ee23a7a7e4f0122bc",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedVisuals-1.21.11-0.3.4.jar"
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc1.21.11.jar",
           "path": "1.21.11/mods/nuit-fabric-1.0.0-beta.6+mc1.21.11.jar",
           "sha256": "b82c955b2734f5538c52099971fece2509a926a4a27156fac2c85cfac1be5e59",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/nuit-fabric-1.0.0-beta.6+mc1.21.11.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/nuit-fabric-1.0.0-beta.6+mc1.21.11.jar"
         },
         {
-          "file": "GunbedAssets-0.3.2.jar",
-          "path": "공통/mods/GunbedAssets-0.3.2.jar",
-          "sha256": "4ec9dd7b0e2999354012809d4e1fae97c32309c38204ece9e2dea3f4a1f56efc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedAssets-0.3.2.jar"
+          "file": "GunbedAssets-0.3.4.jar",
+          "path": "공통/mods/GunbedAssets-0.3.4.jar",
+          "sha256": "70502ab901faee5f57c5962e699f21caec78818e925fedd9761ef7349a1702f9",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedAssets-0.3.4.jar"
         }
       ],
       "libraries": [
@@ -275,49 +275,49 @@
           "path": "libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "target": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "sha256": "ed825d10ab1399c8c0cb669e688cf0c8c82629b4c8399b58352b68e92ca10fcb",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "target": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "sha256": "dede75a21306b65974ecd8f87114ff6970f09fb794157a4ca09ab25c888c2bfc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-analysis-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-analysis-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "target": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "sha256": "6d0abefb7cbf972ea16edb37ec14835372505063a45f976ab7ea889ed9497895",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-commons-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-commons-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "target": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "sha256": "3dfb0d5b6a106cd40b5b250e39935fbf2f927f4477546a5369a3ac609cf0506b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-tree-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-tree-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "target": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "sha256": "1bb99d091fba2597dc6d51193e9bbcf0d8447e7ed96bd8f0198b18152f09655c",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-util-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-util-9.10.1.jar"
         },
         {
           "path": "libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "target": "net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "sha256": "1f0ae44db7295f8626f33b1dc0ad7f043d8954a8d6847247875fcc5dfcecc934",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
         },
         {
           "path": "libraries/net/fabricmc/intermediary/1.21.11/intermediary-1.21.11.jar",
           "target": "net/fabricmc/intermediary/1.21.11/intermediary-1.21.11.jar",
           "sha256": "886da9b21bf26b24a18960ec868612630821f161d7e8b23cd64bbaa51298cabc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-intermediary-1.21.11.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-intermediary-1.21.11.jar"
         },
         {
           "path": "libraries/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "target": "net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-fabric-loader-0.19.5.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-fabric-loader-0.19.5.jar"
         }
       ]
     },
@@ -329,25 +329,25 @@
           "file": "fabric-api-0.155.3+26.1.2.jar",
           "path": "26.1/mods/fabric-api-0.155.3+26.1.2.jar",
           "sha256": "7fe7bea3dbb7b2e9ff998ab583130cd62fab22ab8a5229656ff14b2e648c91dd",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-api-0.155.3+26.1.2.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-api-0.155.3+26.1.2.jar"
         },
         {
-          "file": "GunbedVisuals-26.1-0.3.2.jar",
-          "path": "26.1/mods/GunbedVisuals-26.1-0.3.2.jar",
-          "sha256": "b01321430a50687d6dfe7df41bd6e28f9a83985cfa12d23b2b7a6ad2275e0be1",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedVisuals-26.1-0.3.2.jar"
+          "file": "GunbedVisuals-26.1-0.3.4.jar",
+          "path": "26.1/mods/GunbedVisuals-26.1-0.3.4.jar",
+          "sha256": "484537846135e51a8d66f1b00a191375fabf816368243eedb93aa41442be4fa5",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedVisuals-26.1-0.3.4.jar"
         },
         {
           "file": "nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
           "path": "26.1/mods/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
           "sha256": "b8d18dd300ff99643364e2b36d7746842a91d051200f4dd0d46849ed6b8cca57",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar"
         },
         {
-          "file": "GunbedAssets-0.3.2.jar",
-          "path": "공통/mods/GunbedAssets-0.3.2.jar",
-          "sha256": "4ec9dd7b0e2999354012809d4e1fae97c32309c38204ece9e2dea3f4a1f56efc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedAssets-0.3.2.jar"
+          "file": "GunbedAssets-0.3.4.jar",
+          "path": "공통/mods/GunbedAssets-0.3.4.jar",
+          "sha256": "70502ab901faee5f57c5962e699f21caec78818e925fedd9761ef7349a1702f9",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedAssets-0.3.4.jar"
         }
       ],
       "libraries": [
@@ -355,43 +355,43 @@
           "path": "libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "target": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "sha256": "ed825d10ab1399c8c0cb669e688cf0c8c82629b4c8399b58352b68e92ca10fcb",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "target": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "sha256": "dede75a21306b65974ecd8f87114ff6970f09fb794157a4ca09ab25c888c2bfc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-analysis-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-analysis-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "target": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "sha256": "6d0abefb7cbf972ea16edb37ec14835372505063a45f976ab7ea889ed9497895",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-commons-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-commons-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "target": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "sha256": "3dfb0d5b6a106cd40b5b250e39935fbf2f927f4477546a5369a3ac609cf0506b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-tree-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-tree-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "target": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "sha256": "1bb99d091fba2597dc6d51193e9bbcf0d8447e7ed96bd8f0198b18152f09655c",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-util-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-util-9.10.1.jar"
         },
         {
           "path": "libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "target": "net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "sha256": "1f0ae44db7295f8626f33b1dc0ad7f043d8954a8d6847247875fcc5dfcecc934",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
         },
         {
           "path": "libraries/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "target": "net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-fabric-loader-0.19.5.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-fabric-loader-0.19.5.jar"
         }
       ]
     },
@@ -403,25 +403,25 @@
           "file": "fabric-api-0.155.3+26.1.2.jar",
           "path": "26.1.1/mods/fabric-api-0.155.3+26.1.2.jar",
           "sha256": "7fe7bea3dbb7b2e9ff998ab583130cd62fab22ab8a5229656ff14b2e648c91dd",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-api-0.155.3+26.1.2.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-api-0.155.3+26.1.2.jar"
         },
         {
-          "file": "GunbedVisuals-26.1.1-0.3.2.jar",
-          "path": "26.1.1/mods/GunbedVisuals-26.1.1-0.3.2.jar",
-          "sha256": "0ea27b7848b0acac364a78ffb13dd68f3cb5f77906cd03961edbb6e7a4ea57c6",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedVisuals-26.1.1-0.3.2.jar"
+          "file": "GunbedVisuals-26.1.1-0.3.4.jar",
+          "path": "26.1.1/mods/GunbedVisuals-26.1.1-0.3.4.jar",
+          "sha256": "68e078e887dfb33e3d19b0a38a5794a63cc15a0ad817235461f8bd3f6009ecd7",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedVisuals-26.1.1-0.3.4.jar"
         },
         {
           "file": "nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
           "path": "26.1.1/mods/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
           "sha256": "b8d18dd300ff99643364e2b36d7746842a91d051200f4dd0d46849ed6b8cca57",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar"
         },
         {
-          "file": "GunbedAssets-0.3.2.jar",
-          "path": "공통/mods/GunbedAssets-0.3.2.jar",
-          "sha256": "4ec9dd7b0e2999354012809d4e1fae97c32309c38204ece9e2dea3f4a1f56efc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedAssets-0.3.2.jar"
+          "file": "GunbedAssets-0.3.4.jar",
+          "path": "공통/mods/GunbedAssets-0.3.4.jar",
+          "sha256": "70502ab901faee5f57c5962e699f21caec78818e925fedd9761ef7349a1702f9",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedAssets-0.3.4.jar"
         }
       ],
       "libraries": [
@@ -429,43 +429,43 @@
           "path": "libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "target": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "sha256": "ed825d10ab1399c8c0cb669e688cf0c8c82629b4c8399b58352b68e92ca10fcb",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "target": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "sha256": "dede75a21306b65974ecd8f87114ff6970f09fb794157a4ca09ab25c888c2bfc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-analysis-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-analysis-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "target": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "sha256": "6d0abefb7cbf972ea16edb37ec14835372505063a45f976ab7ea889ed9497895",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-commons-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-commons-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "target": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "sha256": "3dfb0d5b6a106cd40b5b250e39935fbf2f927f4477546a5369a3ac609cf0506b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-tree-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-tree-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "target": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "sha256": "1bb99d091fba2597dc6d51193e9bbcf0d8447e7ed96bd8f0198b18152f09655c",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-util-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-util-9.10.1.jar"
         },
         {
           "path": "libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "target": "net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "sha256": "1f0ae44db7295f8626f33b1dc0ad7f043d8954a8d6847247875fcc5dfcecc934",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
         },
         {
           "path": "libraries/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "target": "net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-fabric-loader-0.19.5.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-fabric-loader-0.19.5.jar"
         }
       ]
     },
@@ -477,25 +477,25 @@
           "file": "fabric-api-0.155.3+26.1.2.jar",
           "path": "26.1.2/mods/fabric-api-0.155.3+26.1.2.jar",
           "sha256": "7fe7bea3dbb7b2e9ff998ab583130cd62fab22ab8a5229656ff14b2e648c91dd",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-api-0.155.3+26.1.2.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-api-0.155.3+26.1.2.jar"
         },
         {
-          "file": "GunbedVisuals-26.1.2-0.3.2.jar",
-          "path": "26.1.2/mods/GunbedVisuals-26.1.2-0.3.2.jar",
-          "sha256": "19eeab5fb4895589d5b5e828293b0665a5bdf25c4dde9684f4388ddb837a0c4c",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedVisuals-26.1.2-0.3.2.jar"
+          "file": "GunbedVisuals-26.1.2-0.3.4.jar",
+          "path": "26.1.2/mods/GunbedVisuals-26.1.2-0.3.4.jar",
+          "sha256": "aa8792fed1d04ce715a2bd3bcf81333dea5228aa0a75bc81fd1327156775de2c",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedVisuals-26.1.2-0.3.4.jar"
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.1.2.jar",
           "path": "26.1.2/mods/nuit-fabric-1.0.0-beta.6+mc26.1.2.jar",
           "sha256": "1787e63f2cc1cf9d3df30ecf8d87dcecdac27a11e2905e054e7e22e0a8012a84",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/nuit-fabric-1.0.0-beta.6+mc26.1.2.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/nuit-fabric-1.0.0-beta.6+mc26.1.2.jar"
         },
         {
-          "file": "GunbedAssets-0.3.2.jar",
-          "path": "공통/mods/GunbedAssets-0.3.2.jar",
-          "sha256": "4ec9dd7b0e2999354012809d4e1fae97c32309c38204ece9e2dea3f4a1f56efc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedAssets-0.3.2.jar"
+          "file": "GunbedAssets-0.3.4.jar",
+          "path": "공통/mods/GunbedAssets-0.3.4.jar",
+          "sha256": "70502ab901faee5f57c5962e699f21caec78818e925fedd9761ef7349a1702f9",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedAssets-0.3.4.jar"
         }
       ],
       "libraries": [
@@ -503,43 +503,43 @@
           "path": "libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "target": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "sha256": "ed825d10ab1399c8c0cb669e688cf0c8c82629b4c8399b58352b68e92ca10fcb",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "target": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "sha256": "dede75a21306b65974ecd8f87114ff6970f09fb794157a4ca09ab25c888c2bfc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-analysis-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-analysis-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "target": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "sha256": "6d0abefb7cbf972ea16edb37ec14835372505063a45f976ab7ea889ed9497895",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-commons-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-commons-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "target": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "sha256": "3dfb0d5b6a106cd40b5b250e39935fbf2f927f4477546a5369a3ac609cf0506b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-tree-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-tree-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "target": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "sha256": "1bb99d091fba2597dc6d51193e9bbcf0d8447e7ed96bd8f0198b18152f09655c",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-util-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-util-9.10.1.jar"
         },
         {
           "path": "libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "target": "net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "sha256": "1f0ae44db7295f8626f33b1dc0ad7f043d8954a8d6847247875fcc5dfcecc934",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
         },
         {
           "path": "libraries/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "target": "net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-fabric-loader-0.19.5.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-fabric-loader-0.19.5.jar"
         }
       ]
     },
@@ -551,25 +551,25 @@
           "file": "fabric-api-0.161.0+26.2.jar",
           "path": "26.2/mods/fabric-api-0.161.0+26.2.jar",
           "sha256": "e5b858ceb13290c274e31cb888ff5a1a40cb91067e7ffab0b5b775aec51e216a",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-api-0.161.0+26.2.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-api-0.161.0+26.2.jar"
         },
         {
-          "file": "GunbedVisuals-26.2-0.3.2.jar",
-          "path": "26.2/mods/GunbedVisuals-26.2-0.3.2.jar",
-          "sha256": "9cbd53f23d42f0b876adea0364d318515f3cc94f1c2b45f609cdab53066cdc00",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedVisuals-26.2-0.3.2.jar"
+          "file": "GunbedVisuals-26.2-0.3.4.jar",
+          "path": "26.2/mods/GunbedVisuals-26.2-0.3.4.jar",
+          "sha256": "fa118e3a94454e95750ac8964383207a2b2274b6ab7ac5fb54817909803b1873",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedVisuals-26.2-0.3.4.jar"
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.2.jar",
           "path": "26.2/mods/nuit-fabric-1.0.0-beta.6+mc26.2.jar",
           "sha256": "819a1337f9a91b4f0eac9de4c3bf13eee64980f3de3799eaf33a20811655c1cc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/nuit-fabric-1.0.0-beta.6+mc26.2.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/nuit-fabric-1.0.0-beta.6+mc26.2.jar"
         },
         {
-          "file": "GunbedAssets-0.3.2.jar",
-          "path": "공통/mods/GunbedAssets-0.3.2.jar",
-          "sha256": "4ec9dd7b0e2999354012809d4e1fae97c32309c38204ece9e2dea3f4a1f56efc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedAssets-0.3.2.jar"
+          "file": "GunbedAssets-0.3.4.jar",
+          "path": "공통/mods/GunbedAssets-0.3.4.jar",
+          "sha256": "70502ab901faee5f57c5962e699f21caec78818e925fedd9761ef7349a1702f9",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedAssets-0.3.4.jar"
         }
       ],
       "libraries": [
@@ -577,43 +577,43 @@
           "path": "libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "target": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "sha256": "ed825d10ab1399c8c0cb669e688cf0c8c82629b4c8399b58352b68e92ca10fcb",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "target": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "sha256": "dede75a21306b65974ecd8f87114ff6970f09fb794157a4ca09ab25c888c2bfc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-analysis-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-analysis-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "target": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "sha256": "6d0abefb7cbf972ea16edb37ec14835372505063a45f976ab7ea889ed9497895",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-commons-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-commons-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "target": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "sha256": "3dfb0d5b6a106cd40b5b250e39935fbf2f927f4477546a5369a3ac609cf0506b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-tree-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-tree-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "target": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "sha256": "1bb99d091fba2597dc6d51193e9bbcf0d8447e7ed96bd8f0198b18152f09655c",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-util-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-util-9.10.1.jar"
         },
         {
           "path": "libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "target": "net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "sha256": "1f0ae44db7295f8626f33b1dc0ad7f043d8954a8d6847247875fcc5dfcecc934",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
         },
         {
           "path": "libraries/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "target": "net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-fabric-loader-0.19.5.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-fabric-loader-0.19.5.jar"
         }
       ]
     },
@@ -625,25 +625,25 @@
           "file": "fabric-api-0.165.2+26.3.jar",
           "path": "26.3/mods/fabric-api-0.165.2+26.3.jar",
           "sha256": "2612a078a5daa06d9a14cabad40fe66de36b8cb22ee8cdf346d5d9894478c392",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-api-0.165.2+26.3.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-api-0.165.2+26.3.jar"
         },
         {
-          "file": "GunbedVisuals-26.3-0.3.2.jar",
-          "path": "26.3/mods/GunbedVisuals-26.3-0.3.2.jar",
-          "sha256": "89f051917add8b3e2ffb61d5fd82c69200250df3b68f0b3b676ff571c7a65169",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedVisuals-26.3-0.3.2.jar"
+          "file": "GunbedVisuals-26.3-0.3.4.jar",
+          "path": "26.3/mods/GunbedVisuals-26.3-0.3.4.jar",
+          "sha256": "84203614419b0b83cd1c0958c21e509fd243d636366c93d52b557b9fac3618e5",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedVisuals-26.3-0.3.4.jar"
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.3.jar",
           "path": "26.3/mods/nuit-fabric-1.0.0-beta.6+mc26.3.jar",
           "sha256": "3ba4b648e79b7ae4646ee28ee172289b25488768747abc2abd36fb8bdf862962",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/nuit-fabric-1.0.0-beta.6+mc26.3.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/nuit-fabric-1.0.0-beta.6+mc26.3.jar"
         },
         {
-          "file": "GunbedAssets-0.3.2.jar",
-          "path": "공통/mods/GunbedAssets-0.3.2.jar",
-          "sha256": "4ec9dd7b0e2999354012809d4e1fae97c32309c38204ece9e2dea3f4a1f56efc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedAssets-0.3.2.jar"
+          "file": "GunbedAssets-0.3.4.jar",
+          "path": "공통/mods/GunbedAssets-0.3.4.jar",
+          "sha256": "70502ab901faee5f57c5962e699f21caec78818e925fedd9761ef7349a1702f9",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedAssets-0.3.4.jar"
         }
       ],
       "libraries": [
@@ -651,47 +651,47 @@
           "path": "libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "target": "org/ow2/asm/asm/9.10.1/asm-9.10.1.jar",
           "sha256": "ed825d10ab1399c8c0cb669e688cf0c8c82629b4c8399b58352b68e92ca10fcb",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "target": "org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar",
           "sha256": "dede75a21306b65974ecd8f87114ff6970f09fb794157a4ca09ab25c888c2bfc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-analysis-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-analysis-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "target": "org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar",
           "sha256": "6d0abefb7cbf972ea16edb37ec14835372505063a45f976ab7ea889ed9497895",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-commons-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-commons-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "target": "org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar",
           "sha256": "3dfb0d5b6a106cd40b5b250e39935fbf2f927f4477546a5369a3ac609cf0506b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-tree-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-tree-9.10.1.jar"
         },
         {
           "path": "libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "target": "org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar",
           "sha256": "1bb99d091fba2597dc6d51193e9bbcf0d8447e7ed96bd8f0198b18152f09655c",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-asm-util-9.10.1.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-asm-util-9.10.1.jar"
         },
         {
           "path": "libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "target": "net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar",
           "sha256": "1f0ae44db7295f8626f33b1dc0ad7f043d8954a8d6847247875fcc5dfcecc934",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-sponge-mixin-0.17.4+mixin.0.8.7.jar"
         },
         {
           "path": "libraries/net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "target": "net/fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar",
           "sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/fabric-lib-fabric-loader-0.19.5.jar"
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/fabric-lib-fabric-loader-0.19.5.jar"
         }
       ]
     }
   },
   "fabric_source": "https://meta.fabricmc.net/",
-  "bundle_sha256": "f90e68f6a43810879362ad4b33c26c5f805f49f06c3560192ceda6e7dba67e16"
+  "bundle_sha256": "7bd431125410e5e4c6ccdf1ebfe1361539c5c125393f480624283d0ae0a7fe09"
 }

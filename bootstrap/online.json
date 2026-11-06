@@ -1,14 +1,14 @@
 {
-  "tag": "v0.3.3",
-  "asset_base": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3",
+  "tag": "v0.3.4",
+  "asset_base": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4",
   "sources": {
     "GunbedVisuals-source.zip": {
-      "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/GunbedVisuals-source.zip",
-      "sha256": "3538aafbd4d6d5435f3291280995d2249e8e0efaf6d095e5a245c83c2ed07c37",
-      "size": 55512417
+      "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/GunbedVisuals-source.zip",
+      "sha256": "2e8f4f90399f55255821ef4df555fd245d2305b9a7a3b04e05f0da0f36e91e54",
+      "size": 56558031
     },
     "Nuit-Gunbed-ports.zip": {
-      "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.3/Nuit-Gunbed-ports.zip",
+      "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.4/Nuit-Gunbed-ports.zip",
       "sha256": "bf9fe965680bb40775db031cbc372060ec6bce1afc831f816342b926a38be31a",
       "size": 179303
     }

@@ -96,10 +96,10 @@ def preflight_files(paths):
 
 
 def probe_directory(directory):
-    directory.mkdir(parents=True, exist_ok=True)
     temporary = directory / ('.gunbed-access-' + uuid.uuid4().hex + '.tmp')
     renamed = temporary.with_suffix('.checked')
     try:
+        directory.mkdir(parents=True, exist_ok=True)
         temporary.write_bytes(b'Gunbed installer access check')
         os.replace(temporary, renamed)
         renamed.unlink()

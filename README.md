@@ -27,3 +27,6 @@ python -m PyInstaller --onefile --windowed --noupx --name GunbedInstaller --path
 The `bootstrap` directory pins public release URLs and SHA-256 digests. To create a version-selected executable, copy the compiled EXE to e.g. `GunbedInstaller-1.21.8.exe`. The filename selects its initial version; all supported versions remain available in the UI.
 
 No player records, server configuration, account files or authentication credentials are included in this repository.
+
+
+Installer/client 0.3.4 includes Windows file-lock diagnostics and a classic TRG model with native Minecraft player-skin arms. The normal gunshot is retained; no silenced gunshot from the reference video is imported.
