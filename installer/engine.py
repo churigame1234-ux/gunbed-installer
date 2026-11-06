@@ -2,6 +2,7 @@
 from __future__ import annotations
 import datetime,hashlib,json,os,shutil,uuid,zipfile
 from pathlib import Path
+from file_access import InstallAccessError,access_error,clear_readonly,preflight_files,probe_directory
 
 IDS={'gunbed_visuals','gunbed_assets','fabric-api','nuit'}
 PROFILE_FILES=('launcher_profiles.json','launcher_profiles_microsoft_store.json')
@@ -88,7 +89,7 @@ class Installer:
         assert set(incoming)==IDS
         libraries=[(entry,self.verified(entry['path'],entry['sha256'])) for entry in chosen['libraries']]
         old_profiles=self.profiles(root)
-        originals={};duplicates=[];untouched={}
+        originals={};duplicates=[];untouched={};readonly={}
         for path in mods.glob('*.jar'):
             if path.resolve().parent!=mods.resolve():raise ValueError('연결된 모드 파일은 자동으로 교체하지 않습니다: '+path.name)
             data=path.read_bytes();identity=mod_id(data)
@@ -98,6 +99,9 @@ class Installer:
         for name,data in incoming.values():
             existing=mods/name
             if existing.exists() and mod_id(existing.read_bytes()) not in IDS:raise ValueError('다른 모드가 같은 파일명을 사용합니다. 보존을 위해 설치를 중단합니다: '+name)
+        log('기존 모드 파일의 사용 중 여부와 폴더 쓰기 권한 확인 중…')
+        preflight_files(duplicates+[mods/name for name,data in incoming.values() if (mods/name).exists() and (mods/name).read_bytes()!=data])
+        probe_directory(mods)
         stamp=datetime.datetime.now().strftime('%Y%m%d-%H%M%S')+'-'+uuid.uuid4().hex[:6]
         backup=root/'gunbed-backups'/stamp
         changed=[]
@@ -105,6 +109,7 @@ class Installer:
             if path in originals:return
             data=path.read_bytes() if path.exists() else None
             originals[path]=data
+            if data is not None:readonly[path]=not bool(path.stat().st_mode & 0o200)
             if data is not None:
                 if path.parent==mods:relative=Path('mods')/path.name
                 elif path.is_relative_to(root):relative=Path('minecraft')/path.relative_to(root)
@@ -112,7 +117,9 @@ class Installer:
                 dest=backup/relative;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(data)
         def write(path,data):
             if path.exists() and path.read_bytes()==data:return
-            remember(path);atomic(path,data);changed.append(str(path))
+            remember(path)
+            if path.parent==mods:clear_readonly(path)
+            atomic(path,data);changed.append(str(path))
         try:
             log('Fabric 실행 파일 설치 중…')
             version_dir=root/'versions'/profile['id']
@@ -125,6 +132,7 @@ class Installer:
                 log('동일 모드 백업: '+path.name)
                 # Backup is already durable; unlink is restricted to verified duplicate IDs.
                 if mod_id(path.read_bytes()) not in IDS:raise RuntimeError('설치 중 모드 파일이 변경되었습니다.')
+                clear_readonly(path)
                 path.unlink()
             for name,data in incoming.values():write(mods/name,data)
             log('기존 실행 설정의 Loader 업데이트 및 Gunbed 실행 설정 등록 중…')
@@ -158,9 +166,20 @@ class Installer:
             atomic(backup/'restore-index.json',json.dumps([{'path':str(p),'existed':data is not None} for p,data in originals.items()],ensure_ascii=False,indent=2).encode('utf-8'))
             log('설치 완료 — 런처에서 Gunbed '+version+'을 선택하세요.')
             return report
-        except BaseException:
+        except BaseException as failure:
+            recovery_errors=[]
             for path,data in reversed(list(originals.items())):
-                if data is None:path.unlink(missing_ok=True)
-                else:atomic(path,data)
+                try:
+                    # A failed unlink/replace leaves its destination unchanged.
+                    # Rewriting it would mask the original error with a second
+                    # access-denied error while rolling back a locked JAR.
+                    if data is None:path.unlink(missing_ok=True)
+                    elif not path.exists() or path.read_bytes()!=data:atomic(path,data)
+                    if readonly.get(path) and path.exists():path.chmod(0o444)
+                except OSError as recovery_error:recovery_errors.append(str(path)+': '+str(recovery_error))
+            if recovery_errors:
+                log('일부 파일의 자동 복구가 실패했습니다. 백업 위치: '+str(backup))
+                raise RuntimeError(str(failure)+'\n\n일부 파일을 복구하지 못했습니다. 백업: '+str(backup)+'\n'+'\n'.join(recovery_errors)) from failure
             log('설치가 중단되어 변경 파일을 원래 상태로 복구했습니다.')
+            if isinstance(failure,PermissionError):raise access_error(failure.filename2 or failure.filename or mods,failure) from failure
             raise

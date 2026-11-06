@@ -26,7 +26,7 @@ def main():
         return 0 if result['success'] else 1
     import tkinter as tk
     from tkinter import ttk,filedialog,messagebox
-    window=tk.Tk();window.title('Gunbed 모드 설치기 0.3.2');window.geometry('740x680');window.minsize(680,650);window.configure(bg='#0f172a')
+    window=tk.Tk();window.title('Gunbed 모드 설치기 0.3.3');window.geometry('740x680');window.minsize(680,650);window.configure(bg='#0f172a')
     window.option_add('*Font',('맑은 고딕',10))
     style=ttk.Style(window);style.theme_use('clam')
     style.configure('TFrame',background='#0f172a');style.configure('TLabel',background='#0f172a',foreground='#e2e8f0');style.configure('Sub.TLabel',foreground='#94a3b8');style.configure('Title.TLabel',font=('맑은 고딕',23,'bold'),foreground='#f8fafc');style.configure('Accent.TButton',font=('맑은 고딕',12,'bold'),padding=12,background='#38bdf8',foreground='#082f49');style.configure('TButton',padding=6);style.configure('TProgressbar',background='#38bdf8')
@@ -77,7 +77,10 @@ def main():
                     busy=False;progress.stop();button.configure(state='normal');combo.configure(state='readonly');entry.configure(state='normal');choose.configure(state='normal')
                     if kind=='success':
                         installed=value;status.set('완료! 런처에서 “'+value['launcher_profile']+'”을 선택하세요.');messagebox.showinfo('설치 완료',value['launcher_profile']+' 설치 완료\n\nFabric Loader '+value['loader']+'\n다른 모드 '+str(len(value['preserved_other_mods']))+'개 보존\n\n기존 런처에서 이 실행 설정을 선택하고 플레이하세요.',parent=window)
-                    else:status.set('설치하지 못했습니다. 아래 내용을 확인해주세요.');messagebox.showerror('설치 확인',value,parent=window)
+                    else:
+                        status.set('설치하지 못했습니다. 게임 종료/폴더 권한 안내를 확인해주세요.')
+                        logs.configure(state='normal');logs.insert('end','\n'+value+'\n');logs.see('end');logs.configure(state='disabled')
+                        messagebox.showerror('설치 확인',value,parent=window)
         except queue.Empty:pass
         window.after(100,pump)
     def close():
