@@ -16,7 +16,7 @@ class OnlineInstaller(Installer):
         for attempt in range(3):
             temporary=target.with_suffix('.part-'+str(os.getpid()))
             try:
-                request=urllib.request.Request(url,headers={'User-Agent':'GunbedInstaller/0.3.4'})
+                request=urllib.request.Request(url,headers={'User-Agent':'GunbedInstaller/0.3.5'})
                 with urllib.request.urlopen(request,timeout=35) as response,temporary.open('wb') as output:
                     total=int(response.headers.get('Content-Length',0));received=0;last=0;sha=hashlib.sha256()
                     while block:=response.read(1024*1024):

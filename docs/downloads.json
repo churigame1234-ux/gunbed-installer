@@ -1,60 +1,60 @@
 {
-  "version": "0.3.4",
-  "online_bytes": 12187654,
+  "version": "0.3.5",
+  "online_bytes": 12189245,
   "versions": [
     {
       "version": "1.21.8",
       "file": "GunbedInstaller-1.21.8.exe",
-      "size": 12187654,
-      "sha256": "5078c0f39ce537ff57503977b9c93b9189ceaba417c5d2e51845e35dff3fd3e3"
+      "size": 12189245,
+      "sha256": "5c55331e2de5b01a19ce77e6e9ad3086f330df8f678c3206d0df7f59dce34c22"
     },
     {
       "version": "1.21.9",
       "file": "GunbedInstaller-1.21.9.exe",
-      "size": 12187654,
-      "sha256": "5078c0f39ce537ff57503977b9c93b9189ceaba417c5d2e51845e35dff3fd3e3"
+      "size": 12189245,
+      "sha256": "5c55331e2de5b01a19ce77e6e9ad3086f330df8f678c3206d0df7f59dce34c22"
     },
     {
       "version": "1.21.10",
       "file": "GunbedInstaller-1.21.10.exe",
-      "size": 12187654,
-      "sha256": "5078c0f39ce537ff57503977b9c93b9189ceaba417c5d2e51845e35dff3fd3e3"
+      "size": 12189245,
+      "sha256": "5c55331e2de5b01a19ce77e6e9ad3086f330df8f678c3206d0df7f59dce34c22"
     },
     {
       "version": "1.21.11",
       "file": "GunbedInstaller-1.21.11.exe",
-      "size": 12187654,
-      "sha256": "5078c0f39ce537ff57503977b9c93b9189ceaba417c5d2e51845e35dff3fd3e3"
+      "size": 12189245,
+      "sha256": "5c55331e2de5b01a19ce77e6e9ad3086f330df8f678c3206d0df7f59dce34c22"
     },
     {
       "version": "26.1",
       "file": "GunbedInstaller-26.1.exe",
-      "size": 12187654,
-      "sha256": "5078c0f39ce537ff57503977b9c93b9189ceaba417c5d2e51845e35dff3fd3e3"
+      "size": 12189245,
+      "sha256": "5c55331e2de5b01a19ce77e6e9ad3086f330df8f678c3206d0df7f59dce34c22"
     },
     {
       "version": "26.1.1",
       "file": "GunbedInstaller-26.1.1.exe",
-      "size": 12187654,
-      "sha256": "5078c0f39ce537ff57503977b9c93b9189ceaba417c5d2e51845e35dff3fd3e3"
+      "size": 12189245,
+      "sha256": "5c55331e2de5b01a19ce77e6e9ad3086f330df8f678c3206d0df7f59dce34c22"
     },
     {
       "version": "26.1.2",
       "file": "GunbedInstaller-26.1.2.exe",
-      "size": 12187654,
-      "sha256": "5078c0f39ce537ff57503977b9c93b9189ceaba417c5d2e51845e35dff3fd3e3"
+      "size": 12189245,
+      "sha256": "5c55331e2de5b01a19ce77e6e9ad3086f330df8f678c3206d0df7f59dce34c22"
     },
     {
       "version": "26.2",
       "file": "GunbedInstaller-26.2.exe",
-      "size": 12187654,
-      "sha256": "5078c0f39ce537ff57503977b9c93b9189ceaba417c5d2e51845e35dff3fd3e3"
+      "size": 12189245,
+      "sha256": "5c55331e2de5b01a19ce77e6e9ad3086f330df8f678c3206d0df7f59dce34c22"
     },
     {
       "version": "26.3",
       "file": "GunbedInstaller-26.3.exe",
-      "size": 12187654,
-      "sha256": "5078c0f39ce537ff57503977b9c93b9189ceaba417c5d2e51845e35dff3fd3e3"
+      "size": 12189245,
+      "sha256": "5c55331e2de5b01a19ce77e6e9ad3086f330df8f678c3206d0df7f59dce34c22"
     }
   ]
 }
