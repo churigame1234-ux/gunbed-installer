@@ -44,3 +44,7 @@ LesRaisins Tactical Equipements (xjqsh, LeComte): dagger, karambit and baseball-
 
 
 Radio callouts in 0.3.8: newly synthesized with Piper Joe medium (CC0 dataset), https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/joe/medium . Local generation uses Piper GPL-3.0, https://github.com/OHF-Voice/piper1-gpl . No Counter-Strike voice recording is included.
+
+## Public TaCZ 1.2.0 additions (Gunbed 0.3.11)
+
+Sixteen newly public guns and six fixed optic models come from the official 1.20.1 Forge 1.2.0 release (CurseForge file 9454481; Modrinth QGCbNkTy). Archive SHA-1: 0b91b2d09f724cdf412da93370cd57d311e78e67. Existing source art remains unchanged; newly copied model, texture, animation and OGG files retain their original bytes and CC BY-NC-ND-4.0 terms. These are compatibility rendering presets, not the original Forge runtime. Exception Armorer / Bykoei paid content, beta paywalls, thermal simulation and XM157 ballistic computers are not included.
