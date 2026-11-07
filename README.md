@@ -29,4 +29,4 @@ The `bootstrap` directory pins public release URLs and SHA-256 digests. To creat
 No player records, server configuration, account files or authentication credentials are included in this repository.
 
 
-Installer/client 0.3.5 includes Windows file-lock diagnostics and a classic TRG model with native Minecraft player-skin arms. The normal gunshot is retained; no silenced gunshot from the reference video is imported.
+Installer/client 0.3.8 includes Windows file-lock diagnostics, 70-percent reload completion, the inventory resource button, and a classic TRG model with native Minecraft player-skin arms. The normal gunshot is retained; no silenced gunshot from the reference video is imported.
