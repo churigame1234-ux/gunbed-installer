@@ -37,3 +37,7 @@ The supplied MiniSudden standalone pack contains TRG-shaped DirectX meshes named
 
 ## Gunbed renewal assets (0.3.6)
 QA grenade/incendiary/flashbang models and sheet textures are converted from the server owner’s local zombie-server resource pack. Churi team equipment and selected team block textures are copied from the owner’s local Churi pack. Turret silhouettes are adapted from the four owner-supplied model archives; these artworks retain their original ownership and are not relicensed as client code. ThrowablePose is newly authored Gunbed code.
+
+
+## Combat update (0.3.7)
+LesRaisins Tactical Equipements (xjqsh, LeComte): dagger, karambit and baseball-bat art and reference pin/throw motion. Source https://github.com/LesRaisins-Studios/LesRaisins-Tactical-Equipements . Code GPL-3.0; art remains All Rights Reserved by its authors and is not relicensed by this project. Original four owner-supplied turret meshes retain topology, UVs and normals; Gunbed adds material and team colours. M79 geometry/icon and radio TTS/filtering are newly authored here. Orbital Laser by astroneer83 is a visual reference only; none of its mod/runtime/art assets are bundled. No Counter-Strike voice samples are used.

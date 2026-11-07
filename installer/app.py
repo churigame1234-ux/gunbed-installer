@@ -26,7 +26,7 @@ def main():
         return 0 if result['success'] else 1
     import tkinter as tk
     from tkinter import ttk,filedialog,messagebox
-    window=tk.Tk();window.title('Gunbed 모드 설치기 0.3.6');window.geometry('740x680');window.minsize(680,650);window.configure(bg='#0f172a')
+    window=tk.Tk();window.title('Gunbed 모드 설치기 0.3.7');window.geometry('740x680');window.minsize(680,650);window.configure(bg='#0f172a')
     window.option_add('*Font',('맑은 고딕',10))
     style=ttk.Style(window);style.theme_use('clam')
     style.configure('TFrame',background='#0f172a');style.configure('TLabel',background='#0f172a',foreground='#e2e8f0');style.configure('Sub.TLabel',foreground='#94a3b8');style.configure('Title.TLabel',font=('맑은 고딕',23,'bold'),foreground='#f8fafc');style.configure('Accent.TButton',font=('맑은 고딕',12,'bold'),padding=12,background='#38bdf8',foreground='#082f49');style.configure('TButton',padding=6);style.configure('TProgressbar',background='#38bdf8')
