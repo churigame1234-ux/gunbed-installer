@@ -9,7 +9,7 @@ async function loadMetadata(){
  }
  throw Error('다운로드 정보에 연결하지 못했습니다.');
 }
-const metadata=loadMetadata();
+let metadata=loadMetadata();
 metadata.catch(()=>{});
 function choose(version){
  if(!controls.some(input=>input.value===version))return;
@@ -18,6 +18,7 @@ function choose(version){
  document.getElementById('profile-name').textContent='Gunbed '+version;
  document.getElementById('download-label').textContent=version+' 설치기 다운로드';
  document.getElementById('download').download='GunbedInstaller-'+version+'.exe';
+ if(!busy)document.getElementById('download-status').textContent='연결 실패 시 대체 경로로 자동 전환 · SHA-256 검증';
 }
 controls.forEach(input=>input.addEventListener('change',()=>choose(input.value)));
 const requested=new URLSearchParams(location.search).get('version');
@@ -51,6 +52,6 @@ document.getElementById('download').addEventListener('click',async event=>{
   const link=document.createElement('a');link.href=objectURL;link.download=result.source.archive?'GunbedInstaller-'+version+'.zip':entry.file;
   document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(objectURL),60000);
   status.textContent=result.source.archive?'검증 완료. ZIP 압축을 풀고 설치기에서 '+version+' 버전을 선택하세요.':'검증 완료. 다운로드한 '+entry.file+'를 실행하세요.';
- }catch(error){status.textContent=error.message+' 아래의 ZIP 대체 다운로드도 사용할 수 있습니다.';}
+ }catch(error){status.textContent=error.message+' 아래의 ZIP 대체 다운로드도 사용할 수 있습니다.';metadata=loadMetadata();metadata.catch(()=>{});}
  finally{busy=false;button.removeAttribute('aria-disabled');controls.forEach(input=>input.disabled=false);}
 });
