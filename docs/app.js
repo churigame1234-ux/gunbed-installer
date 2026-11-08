@@ -1,5 +1,5 @@
 'use strict';
-const base='https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.12/';
+const base='https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.13/';
 const controls=[...document.querySelectorAll('input[name="version"]')];
 function choose(version){
  if(!controls.some(input=>input.value===version))return;
