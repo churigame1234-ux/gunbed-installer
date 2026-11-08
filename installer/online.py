@@ -12,7 +12,8 @@ class OnlineInstaller(Installer):
         cache=Path(os.environ.get('LOCALAPPDATA',Path.home()/'.cache'))/'GunbedInstaller/cache'/self.release['tag']/'files'
         cache.mkdir(parents=True,exist_ok=True);target=cache/(expected+'-'+filename)
         if target.exists() and digest(target.read_bytes())==expected:return target
-        if not url.startswith(self.release['asset_base']+'/'):raise ValueError('잘못된 다운로드 주소입니다.')
+        bases=self.release.get('asset_bases',[self.release['asset_base']])
+        if not any(url.startswith(base+'/') for base in bases):raise ValueError('잘못된 다운로드 주소입니다.')
         # Mirrors are bundled into the signed-by-hash release metadata, never
         # fetched from an editable remote manifest. Old bootstrap files still work.
         mirrors=self.release.get('mirrors',{}).get(expected,[])
@@ -27,7 +28,7 @@ class OnlineInstaller(Installer):
             temporary=target.with_suffix('.part-'+str(os.getpid()))
             try:
                 log(filename+' · '+urlparse(source).hostname+' 연결 중…')
-                request=urllib.request.Request(source,headers={'User-Agent':'GunbedInstaller/0.3.14'})
+                request=urllib.request.Request(source,headers={'User-Agent':'GunbedInstaller/0.3.15'})
                 started=time.monotonic()
                 with urllib.request.urlopen(request,timeout=20) as response,temporary.open('wb') as output:
                     total=int(response.headers.get('Content-Length',0));received=0;last=0;sha=hashlib.sha256()

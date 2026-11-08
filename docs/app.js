@@ -2,7 +2,7 @@
 const controls=[...document.querySelectorAll('input[name="version"]')];
 let selected='1.21.8',busy=false;
 async function loadMetadata(){
- for(const url of ['downloads.json?v=0.3.14','https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/downloads.json']){
+ for(const url of ['downloads.json?v=0.3.15','https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/downloads.json']){
   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),10000);
   try{const response=await fetch(url,{cache:'no-store',signal:controller.signal});if(!response.ok)throw Error('metadata');return await response.json();}
   catch{}finally{clearTimeout(timer);}
@@ -30,7 +30,7 @@ document.getElementById('server').addEventListener('click',async()=>{
 metadata.then(data=>{
  document.getElementById('download-size').textContent=(data.online_bytes/1048576).toFixed(1)+' MB · Windows EXE';
  document.getElementById('mirror-zip').href=data.archive.url;
- document.getElementById('offline-download').href=data.offline.url;
+ const offline=document.getElementById('offline-download');if(offline){if(data.offline?.url){offline.href=data.offline.url;offline.hidden=false;}else offline.remove();}
 }).catch(()=>{});
 document.getElementById('download').addEventListener('click',async event=>{
  event.preventDefault();if(busy)return;busy=true;
