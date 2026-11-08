@@ -4,7 +4,9 @@ Windows 10/11 x64 installer for MZS Gunbed FPS BedWars.
 
 **Download:** https://churigame1234-ux.github.io/gunbed-installer/
 
-Choose Minecraft 1.21.8–26.3 and install Fabric Loader 0.19.5 plus four required mods. Online executables download only the selected version's verified files from GitHub Releases. The offline executable includes all supported versions.
+Installer 0.3.14 installs the tested 0.3.13 gameplay clients. Choose Minecraft 1.21.8–26.3 and install Fabric Loader 0.19.5 plus four required mods. Online executables try static Pages files, commit-pinned raw files, and GitHub Releases in order, verifying SHA-256 and length before using any file. The offline 0.3.13 executable includes all supported versions.
+
+The website downloads and verifies the EXE before saving it, and switches paths automatically on timeout, HTTP errors, truncation or checksum mismatch. A ZIP download is also available. External service outages cannot be eliminated, but release-edge errors no longer block all downloads. Static payload mirrors and corresponding source archives are under `docs/files/v0.3.13/`.
 
 ## Existing installations
 
@@ -29,4 +31,4 @@ The `bootstrap` directory pins public release URLs and SHA-256 digests. To creat
 No player records, server configuration, account files or authentication credentials are included in this repository.
 
 
-Installer/client 0.3.8 includes Windows file-lock diagnostics, 70-percent reload completion, the inventory resource button, and a classic TRG model with native Minecraft player-skin arms. The normal gunshot is retained; no silenced gunshot from the reference video is imported.
+Client 0.3.13 includes respawn loadout repeat, the updated combat rules and inventory display. This installer-only fix does not change gameplay, server records, ownership or balance.
