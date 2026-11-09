@@ -28,7 +28,7 @@ class OnlineInstaller(Installer):
             temporary=target.with_suffix('.part-'+str(os.getpid()))
             try:
                 log(filename+' · '+urlparse(source).hostname+' 연결 중…')
-                request=urllib.request.Request(source,headers={'User-Agent':'GunbedInstaller/0.3.16'})
+                request=urllib.request.Request(source,headers={'User-Agent':'GunbedInstaller/0.3.17'})
                 started=time.monotonic()
                 with urllib.request.urlopen(request,timeout=20) as response,temporary.open('wb') as output:
                     total=int(response.headers.get('Content-Length',0));received=0;last=0;sha=hashlib.sha256()
