@@ -4,9 +4,9 @@ Windows 10/11 x64 installer for MZS Gunbed FPS BedWars.
 
 **Download:** https://churigame1234-ux.github.io/gunbed-installer/
 
-Installer 0.3.15 installs the tested 0.3.15 adapters (same executable classes as 0.3.13, updated asset dependency metadata) and shared assets 0.3.15, fixing opaque optical apertures on five mounted scopes. Choose Minecraft 1.21.8–26.3 and install Fabric Loader 0.19.5 plus four required mods. Online executables try static Pages files, commit-pinned raw files, and GitHub Releases in order, verifying SHA-256 and length before using any file. Older offline installers contain the opaque optics and are not offered for this update.
+Installer 0.3.16 installs nine freshly built 0.3.16 adapters and shared assets 0.3.16. It adds 57 WAT firearm presets, 11 DeltaForce melee presets and three 42Labs throwables, plus persistent spectator kill feeds, fading icons, tracker distance HUD and quiet short landings. Choose Minecraft 1.21.8–26.3 and install Fabric Loader 0.19.5 plus four required mods. File length and SHA-256 are verified across independent fallback download paths.
 
-The website downloads and verifies the EXE before saving it, and switches paths automatically on timeout, HTTP errors, truncation or checksum mismatch. A ZIP download is also available. External service outages cannot be eliminated, but release-edge errors no longer block all downloads. Unchanged libraries remain under `docs/files/v0.3.13/`; the updated adapters and model assets are under `docs/files/v0.3.15/`.
+The website downloads and verifies the EXE before saving it, and switches paths automatically on timeout, HTTP errors, truncation or checksum mismatch. A ZIP download is also available. External service outages cannot be eliminated, but release-edge errors no longer block all downloads. Unchanged libraries remain under `docs/files/v0.3.13/`; the updated adapters and model assets are under `docs/files/v0.3.16/`.
 
 ## Existing installations
 

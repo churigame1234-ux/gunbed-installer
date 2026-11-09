@@ -2,7 +2,7 @@
 const controls=[...document.querySelectorAll('input[name="version"]')];
 let selected='1.21.8',busy=false;
 async function loadMetadata(){
- for(const url of ['downloads.json?v=0.3.15','https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/downloads.json']){
+ for(const url of ['downloads.json?v=0.3.16','https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/downloads.json']){
   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),10000);
   try{const response=await fetch(url,{cache:'no-store',signal:controller.signal});if(!response.ok)throw Error('metadata');return await response.json();}
   catch{}finally{clearTimeout(timer);}
