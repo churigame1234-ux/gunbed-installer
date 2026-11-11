@@ -4,7 +4,7 @@ Windows 10/11 x64 installer for MZS Gunbed FPS BedWars.
 
 **Download:** https://churigame1234-ux.github.io/gunbed-installer/
 
-Installer 0.3.17 installs nine freshly built 0.3.17 adapters and shared assets 0.3.17. It adds 57 WAT firearm presets, 11 DeltaForce melee presets and three 42Labs throwables, plus persistent spectator kill feeds, fading icons, tracker distance HUD and quiet short landings. Choose Minecraft 1.21.8–26.3 and install Fabric Loader 0.19.5 plus four required mods. File length and SHA-256 are verified across independent fallback download paths.
+Installer 0.3.18 installs nine freshly built 0.3.18 adapters and shared assets 0.3.17. It adds in-match human framebuffer/control recording for a local CNN/GRU imitation worker. Actual human gameplay is required; no trained human policy or player recordings are bundled. It adds 57 WAT firearm presets, 11 DeltaForce melee presets and three 42Labs throwables, plus persistent spectator kill feeds, fading icons, tracker distance HUD and quiet short landings. Choose Minecraft 1.21.8–26.3 and install Fabric Loader 0.19.5 plus four required mods. File length and SHA-256 are verified across independent fallback download paths.
 
 The website downloads and verifies the EXE before saving it, and switches paths automatically on timeout, HTTP errors, truncation or checksum mismatch. A ZIP download is also available. External service outages cannot be eliminated, but release-edge errors no longer block all downloads. Unchanged libraries remain under `docs/files/v0.3.13/`; the updated adapters and model assets are under `docs/files/v0.3.17/`.
 
