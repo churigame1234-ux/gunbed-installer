@@ -8,3 +8,19 @@
 .controls{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:24px}.controls>div{display:flex;align-items:center;justify-content:center;gap:18px}.controls>div+div{border-left:1px solid var(--line)}.key{min-width:56px;padding:10px 8px;text-align:center;border:1px solid #53624c;border-bottom:3px solid #53624c;color:var(--accent);font-size:13px;font-weight:600}.controls p{font-size:10px;color:var(--muted);margin:0}.controls strong{display:block;font-size:15px;font-weight:500;color:var(--text);margin-top:2px}@media(max-width:650px){.controls{padding-block:20px}.controls>div{flex-direction:column;gap:10px;text-align:center}.key{min-width:48px;padding:6px;font-size:11px}.controls strong{font-size:11px}.controls p{font-size:9px}}
 
 .download-status{font-size:11px;color:var(--muted);min-height:2em;margin:10px 0 4px}.backup-download{font-size:11px;margin:0 0 12px}.backup-download a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}.download-button[aria-disabled="true"]{opacity:.65;cursor:progress}
+
+/* Two installation paths share the selected game version. */
+.download-button.secondary{width:100%;border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;text-align:left}
+.download-button.secondary:hover{background:#25351b}.download-button.secondary:disabled{cursor:progress}
+.download-meta{font-size:12px;margin:8px 0 18px}.download-status{font-size:13px;overflow-wrap:anywhere}.backup-download{font-size:13px;margin:12px 0 18px}
+.install-notice{display:grid;grid-template-columns:1fr 1.5fr;gap:95px;padding-block:44px;border-bottom:1px solid var(--line)}
+.install-notice h2{font-size:24px}.notice-copy p,.notice-copy li,.download-note,.manual-guide .muted{font-size:14px;line-height:1.9;color:var(--muted)}
+.notice-copy p{margin:0 0 14px}.notice-copy ol{margin:0 0 18px;padding-left:22px}.notice-copy li+li{margin-top:9px}
+.notice-copy strong{color:var(--text)}.notice-copy a,.manual-guide a,.download-note a,#individual-links a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.hash-help summary{font-size:14px}.hash-help p{font-size:14px}.hash-value{display:block;margin:12px 0;font-size:12px;overflow-wrap:anywhere;word-break:break-all}
+.manual-guide .steps p,.manual-guide code{font-size:14px}.manual-guide .steps h3{font-size:17px}.manual-guide .steps li{padding-bottom:28px}
+.alternative-links{white-space:normal;max-width:650px}#individual-mods summary{font-size:14px}#individual-mods p{font-size:14px}
+#individual-links{padding-left:20px;font-size:13px;overflow-wrap:anywhere}#individual-links li{margin:12px 0}#individual-links code{display:block;font-size:11px;margin-top:5px;word-break:break-all}
+@media(max-width:900px){.install-notice{gap:40px}}
+@media(max-width:650px){.install-notice{grid-template-columns:1fr;gap:16px;padding-block:35px}.install-notice .eyebrow{margin-bottom:10px}.download-button{padding:16px;font-size:14px}.download-meta{font-size:12px}.selection{font-size:10px}}
+@media(min-width:651px) and (max-width:800px){.hero,.guide,.help,.install-notice{grid-template-columns:1fr;gap:32px}.hero{padding-block:42px}.intro .lead br{display:none}.section-title h2 br{display:none}}
