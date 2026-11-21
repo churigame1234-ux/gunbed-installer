@@ -25,11 +25,11 @@
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.13/nuit-fabric-1.0.0-beta.1+mc1.21.8.jar"
         },
         {
-          "file": "GunbedAssets-0.3.17.jar",
-          "path": "mods/GunbedAssets-0.3.17.jar",
-          "sha256": "7153f0efd00557ec63077b7aed1256d0ef154880d50ebaab408a4f8eee0c846b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.17/GunbedAssets-0.3.17.jar",
-          "size": 96903436
+          "file": "GunbedAssets-0.3.20.jar",
+          "path": "mods/GunbedAssets-0.3.20.jar",
+          "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
+          "size": 75583226
         }
       ],
       "libraries": [
@@ -107,11 +107,11 @@
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.13/nuit-fabric-1.21.9-1.0.0-beta.1+gunbed.1.21.9.jar"
         },
         {
-          "file": "GunbedAssets-0.3.17.jar",
-          "path": "mods/GunbedAssets-0.3.17.jar",
-          "sha256": "7153f0efd00557ec63077b7aed1256d0ef154880d50ebaab408a4f8eee0c846b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.17/GunbedAssets-0.3.17.jar",
-          "size": 96903436
+          "file": "GunbedAssets-0.3.20.jar",
+          "path": "mods/GunbedAssets-0.3.20.jar",
+          "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
+          "size": 75583226
         }
       ],
       "libraries": [
@@ -189,11 +189,11 @@
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.13/nuit-fabric-1.21.10-1.0.0-beta.1+gunbed.1.21.10.jar"
         },
         {
-          "file": "GunbedAssets-0.3.17.jar",
-          "path": "mods/GunbedAssets-0.3.17.jar",
-          "sha256": "7153f0efd00557ec63077b7aed1256d0ef154880d50ebaab408a4f8eee0c846b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.17/GunbedAssets-0.3.17.jar",
-          "size": 96903436
+          "file": "GunbedAssets-0.3.20.jar",
+          "path": "mods/GunbedAssets-0.3.20.jar",
+          "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
+          "size": 75583226
         }
       ],
       "libraries": [
@@ -271,11 +271,11 @@
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.13/nuit-fabric-1.0.0-beta.6+mc1.21.11.jar"
         },
         {
-          "file": "GunbedAssets-0.3.17.jar",
-          "path": "mods/GunbedAssets-0.3.17.jar",
-          "sha256": "7153f0efd00557ec63077b7aed1256d0ef154880d50ebaab408a4f8eee0c846b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.17/GunbedAssets-0.3.17.jar",
-          "size": 96903436
+          "file": "GunbedAssets-0.3.20.jar",
+          "path": "mods/GunbedAssets-0.3.20.jar",
+          "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
+          "size": 75583226
         }
       ],
       "libraries": [
@@ -353,11 +353,11 @@
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.13/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar"
         },
         {
-          "file": "GunbedAssets-0.3.17.jar",
-          "path": "mods/GunbedAssets-0.3.17.jar",
-          "sha256": "7153f0efd00557ec63077b7aed1256d0ef154880d50ebaab408a4f8eee0c846b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.17/GunbedAssets-0.3.17.jar",
-          "size": 96903436
+          "file": "GunbedAssets-0.3.20.jar",
+          "path": "mods/GunbedAssets-0.3.20.jar",
+          "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
+          "size": 75583226
         }
       ],
       "libraries": [
@@ -429,11 +429,11 @@
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.13/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar"
         },
         {
-          "file": "GunbedAssets-0.3.17.jar",
-          "path": "mods/GunbedAssets-0.3.17.jar",
-          "sha256": "7153f0efd00557ec63077b7aed1256d0ef154880d50ebaab408a4f8eee0c846b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.17/GunbedAssets-0.3.17.jar",
-          "size": 96903436
+          "file": "GunbedAssets-0.3.20.jar",
+          "path": "mods/GunbedAssets-0.3.20.jar",
+          "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
+          "size": 75583226
         }
       ],
       "libraries": [
@@ -505,11 +505,11 @@
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.13/nuit-fabric-1.0.0-beta.6+mc26.1.2.jar"
         },
         {
-          "file": "GunbedAssets-0.3.17.jar",
-          "path": "mods/GunbedAssets-0.3.17.jar",
-          "sha256": "7153f0efd00557ec63077b7aed1256d0ef154880d50ebaab408a4f8eee0c846b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.17/GunbedAssets-0.3.17.jar",
-          "size": 96903436
+          "file": "GunbedAssets-0.3.20.jar",
+          "path": "mods/GunbedAssets-0.3.20.jar",
+          "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
+          "size": 75583226
         }
       ],
       "libraries": [
@@ -581,11 +581,11 @@
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.13/nuit-fabric-1.0.0-beta.6+mc26.2.jar"
         },
         {
-          "file": "GunbedAssets-0.3.17.jar",
-          "path": "mods/GunbedAssets-0.3.17.jar",
-          "sha256": "7153f0efd00557ec63077b7aed1256d0ef154880d50ebaab408a4f8eee0c846b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.17/GunbedAssets-0.3.17.jar",
-          "size": 96903436
+          "file": "GunbedAssets-0.3.20.jar",
+          "path": "mods/GunbedAssets-0.3.20.jar",
+          "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
+          "size": 75583226
         }
       ],
       "libraries": [
@@ -657,11 +657,11 @@
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.13/nuit-fabric-1.0.0-beta.6+mc26.3.jar"
         },
         {
-          "file": "GunbedAssets-0.3.17.jar",
-          "path": "mods/GunbedAssets-0.3.17.jar",
-          "sha256": "7153f0efd00557ec63077b7aed1256d0ef154880d50ebaab408a4f8eee0c846b",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.17/GunbedAssets-0.3.17.jar",
-          "size": 96903436
+          "file": "GunbedAssets-0.3.20.jar",
+          "path": "mods/GunbedAssets-0.3.20.jar",
+          "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
+          "size": 75583226
         }
       ],
       "libraries": [

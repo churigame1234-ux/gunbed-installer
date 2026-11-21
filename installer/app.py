@@ -26,7 +26,7 @@ def main():
         return 0 if result['success'] else 1
     import tkinter as tk
     from tkinter import ttk,filedialog,messagebox
-    window=tk.Tk();window.title('Gunbed 모드 설치기 0.3.19');window.geometry('740x680');window.minsize(680,650);window.configure(bg='#0f172a')
+    window=tk.Tk();window.title('Gunbed 모드 설치기 0.3.20');window.geometry('740x680');window.minsize(680,650);window.configure(bg='#0f172a')
     window.option_add('*Font',('맑은 고딕',10))
     style=ttk.Style(window);style.theme_use('clam')
     style.configure('TFrame',background='#0f172a');style.configure('TLabel',background='#0f172a',foreground='#e2e8f0');style.configure('Sub.TLabel',foreground='#94a3b8');style.configure('Title.TLabel',font=('맑은 고딕',23,'bold'),foreground='#f8fafc');style.configure('Accent.TButton',font=('맑은 고딕',12,'bold'),padding=12,background='#38bdf8',foreground='#082f49');style.configure('TButton',padding=6);style.configure('TProgressbar',background='#38bdf8')
@@ -50,7 +50,7 @@ def main():
     choose=ttk.Button(row,text='폴더 선택',command=browse);choose.pack(side='right',padx=(8,0))
     ttk.Label(frame,textvariable=target,style='Sub.TLabel',wraplength=670).pack(anchor='w')
     ttk.Label(frame,text='다른 모드 · 설정 · 월드는 그대로 유지합니다.',foreground='#86efac').pack(anchor='w',pady=(18,3))
-    ttk.Label(frame,text='동일한 모드 ID 4종만 백업 후 교체합니다. Fabric Loader 0.19.5 포함.',style='Sub.TLabel',wraplength=670).pack(anchor='w')
+    ttk.Label(frame,text='동일한 모드 ID 4종만 백업 후 교체합니다. Fabric Loader 0.19.5 포함. 텍스처는 Gunbed 접속 시 서버 팩으로 받습니다.',style='Sub.TLabel',wraplength=670).pack(anchor='w')
     messages=queue.Queue();busy=False;installed=None
     def worker(root_path,selected_version):
         try:

@@ -3,7 +3,7 @@ const controls=[...document.querySelectorAll('input[name="version"]')];
 const byId=id=>document.getElementById(id);
 let selected='1.21.8',busy=false;
 async function loadMetadata(file){
- for(const url of [file+'?v=20261120-manual','https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/'+file]){
+ for(const url of [file+'?v=20261121-textures','https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/'+file]){
   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),10000);
   try{const response=await fetch(url,{cache:'no-store',signal:controller.signal});if(!response.ok)throw Error('metadata');return await response.json();}
   catch{}finally{clearTimeout(timer);}
