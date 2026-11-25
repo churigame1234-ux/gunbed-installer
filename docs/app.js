@@ -3,7 +3,7 @@ const controls=[...document.querySelectorAll('input[name="version"]')];
 const byId=id=>document.getElementById(id);
 let selected='1.21.8',busy=false;
 async function loadMetadata(file){
- for(const url of [file+'?v=20261121-textures','https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/'+file]){
+ for(const url of [file+'?v=20261125-zombie','https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/'+file]){
   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),10000);
   try{const response=await fetch(url,{cache:'no-store',signal:controller.signal});if(!response.ok)throw Error('metadata');return await response.json();}
   catch{}finally{clearTimeout(timer);}
@@ -14,7 +14,7 @@ let metadata=loadMetadata('downloads.json'),manualMetadata=loadMetadata('manual-
 metadata.catch(()=>{});manualMetadata.catch(()=>{});
 function updateManual(data){
  const entry=data.versions[selected];if(!entry)return;
- byId('manual-size').textContent=(entry.downloadBytes/1048576).toFixed(1)+' MB · 모드 4개';
+ byId('manual-size').textContent=(entry.downloadBytes/1048576).toFixed(1)+' MB · 모드 6개';
  const list=byId('individual-links');list.replaceChildren();
  for(const file of entry.files){
   const li=document.createElement('li'),link=document.createElement('a');
@@ -47,7 +47,7 @@ function updateInstaller(data){
  byId('installer-hash').textContent=data.versions.find(v=>v.version===selected).sha256;
 }
 metadata.then(updateInstaller).catch(()=>{byId('installer-hash').textContent='정보를 받지 못했습니다. 공식 GitHub 배포본의 SHA256SUMS.txt를 확인하세요.';});
-manualMetadata.then(updateManual).catch(()=>{byId('manual-size').textContent='연결 후 용량 확인 · 모드 4개';});
+manualMetadata.then(updateManual).catch(()=>{byId('manual-size').textContent='연결 후 용량 확인 · 모드 6개';});
 function lock(value){
  busy=value;controls.forEach(input=>input.disabled=value);
  for(const id of ['download','manual-download']){
@@ -83,13 +83,14 @@ byId('manual-download').addEventListener('click',async()=>{
  if(busy)return;lock(true);const version=selected,status=byId('download-status');
  try{
   status.textContent='수동 설치 모드 정보를 확인하고 있습니다…';
+  const original=byId('tissou-original').files[0];if(!original)throw Error('수동 ZIP용 Tissou 2.7 원본을 먼저 선택하세요. 자동 설치기는 이 과정이 필요하지 않습니다.');
   const data=await manualMetadata,entry=data.versions[version];
   const blob=await GunbedManualPack.prepare(entry,data,verifiedDownload,(kind,n,file,received)=>{
-   if(kind==='file'||kind==='connect')status.textContent='모드 '+(n+1)+'/4 다운로드 · '+file.file;
-   if(kind==='progress')status.textContent='모드 '+(n+1)+'/4 · '+Math.floor(received/file.size*100)+'% · '+file.file;
-   if(kind==='fallback')status.textContent='모드 '+(n+1)+'/4 연결 지연 · 대체 경로로 전환합니다…';
-   if(kind==='zip')status.textContent='모드 4개 검증 완료 · ZIP으로 묶고 있습니다…';
-  });
+   if(kind==='file'||kind==='connect')status.textContent='모드 '+(n+1)+'/5 다운로드 · '+file.file;
+   if(kind==='progress')status.textContent='모드 '+(n+1)+'/5 · '+Math.floor(received/file.size*100)+'% · '+file.file;
+   if(kind==='fallback')status.textContent='모드 '+(n+1)+'/5 연결 지연 · 대체 경로로 전환합니다…';
+   if(kind==='zip')status.textContent='모드 6개 검증 완료 · ZIP으로 묶고 있습니다…';
+  },new Uint8Array(await original.arrayBuffer()));
   save(blob,entry.filename);status.textContent='수동 설치 ZIP을 저장합니다. 압축을 풀고 아래 ZIP 넣는 방법을 따라주세요.';
  }catch(error){status.textContent=error.message+' 아래 ‘모드 개별 다운로드’도 사용할 수 있습니다.';manualMetadata=loadMetadata('manual-downloads.json');manualMetadata.catch(()=>{});}
  finally{lock(false);}

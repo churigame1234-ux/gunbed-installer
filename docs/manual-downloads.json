@@ -1,16 +1,16 @@
 {
-  "release": "0.3.20",
+  "release": "0.3.21",
   "loader": "0.19.5",
   "assets": "0.3.20",
   "versions": {
     "1.21.8": {
       "version": "1.21.8",
-      "filename": "Gunbed-Modpack-1.21.8-0.3.20.zip",
+      "filename": "Gunbed-Zombie-Modpack-1.21.8-0.3.21.zip",
       "files": [
         {
           "file": "fabric-api-0.136.1+1.21.8.jar",
-          "size": 2269700,
           "sha256": "24c2c9c7fa1f969982ddf142a5f17b356b88a5eb1cb1ece9c287a588f3451233",
+          "size": 2269700,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/fabric-api-0.136.1+1.21.8.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/fabric-api-0.136.1+1.21.8.jar",
@@ -19,18 +19,18 @@
         },
         {
           "file": "GunbedVisuals-1.21.8-0.3.19.jar",
-          "size": 124797,
-          "sha256": "2f133d1845bf476a8e16e346ff98c0945674ea7a99acf41675ec194735b13820",
+          "sha256": "416b9b592b465b97652b2d622bd580397bb4d0fdb250a9e4d238cc21ee5682fc",
+          "size": 168007,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.19/GunbedVisuals-1.21.8-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.19/GunbedVisuals-1.21.8-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-1.21.8-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/GunbedVisuals-1.21.8-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/GunbedVisuals-1.21.8-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-1.21.8-0.3.19.jar"
           ]
         },
         {
           "file": "nuit-fabric-1.0.0-beta.1+mc1.21.8.jar",
-          "size": 156118,
           "sha256": "6c32e2e0cfcab8196750b10361d5e9bec9e008b7ba3db63131f673e070e43d63",
+          "size": 156118,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/nuit-fabric-1.0.0-beta.1+mc1.21.8.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/nuit-fabric-1.0.0-beta.1+mc1.21.8.jar",
@@ -39,25 +39,35 @@
         },
         {
           "file": "GunbedAssets-0.3.20.jar",
-          "size": 75583226,
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "size": 75583226,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar"
           ]
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "size": 475804,
+          "urls": [
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar"
+          ]
         }
       ],
-      "downloadBytes": 78133841
+      "downloadBytes": 92829945
     },
     "1.21.9": {
       "version": "1.21.9",
-      "filename": "Gunbed-Modpack-1.21.9-0.3.20.zip",
+      "filename": "Gunbed-Zombie-Modpack-1.21.9-0.3.21.zip",
       "files": [
         {
           "file": "fabric-api-0.134.1+1.21.9.jar",
-          "size": 2290371,
           "sha256": "43e7bf24789b5d841690d942efc274478a50fbfd943e8838f8fbc4de8162a970",
+          "size": 2290371,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/fabric-api-0.134.1+1.21.9.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/fabric-api-0.134.1+1.21.9.jar",
@@ -66,18 +76,18 @@
         },
         {
           "file": "GunbedVisuals-1.21.9-0.3.19.jar",
-          "size": 125377,
-          "sha256": "370181154e0a7ac08531ccd45b12e6b0302033ebdafc51eafc851f04645eca93",
+          "sha256": "1ec7ec5d8fd2cc830144abbb09aafcbc811520d84cc4866ff91e4808def490ab",
+          "size": 168683,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.19/GunbedVisuals-1.21.9-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.19/GunbedVisuals-1.21.9-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-1.21.9-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/GunbedVisuals-1.21.9-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/GunbedVisuals-1.21.9-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-1.21.9-0.3.19.jar"
           ]
         },
         {
           "file": "nuit-fabric-1.21.9-1.0.0-beta.1+gunbed.1.21.9.jar",
-          "size": 158396,
           "sha256": "790236a179ef8d2a80be355af7d4138e428a23acf1ebe39930a9c68484276fa4",
+          "size": 158396,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/nuit-fabric-1.21.9-1.0.0-beta.1+gunbed.1.21.9.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/nuit-fabric-1.21.9-1.0.0-beta.1+gunbed.1.21.9.jar",
@@ -86,25 +96,35 @@
         },
         {
           "file": "GunbedAssets-0.3.20.jar",
-          "size": 75583226,
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "size": 75583226,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar"
           ]
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "size": 475804,
+          "urls": [
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar"
+          ]
         }
       ],
-      "downloadBytes": 78157370
+      "downloadBytes": 92853570
     },
     "1.21.10": {
       "version": "1.21.10",
-      "filename": "Gunbed-Modpack-1.21.10-0.3.20.zip",
+      "filename": "Gunbed-Zombie-Modpack-1.21.10-0.3.21.zip",
       "files": [
         {
           "file": "fabric-api-0.138.4+1.21.10.jar",
-          "size": 2375888,
           "sha256": "4dd5d07067d5cf3e874d2780806c3da223819d39b28d6296c1005a36f2d0a5e4",
+          "size": 2375888,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/fabric-api-0.138.4+1.21.10.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/fabric-api-0.138.4+1.21.10.jar",
@@ -113,18 +133,18 @@
         },
         {
           "file": "GunbedVisuals-1.21.10-0.3.19.jar",
-          "size": 125378,
-          "sha256": "92a0f6d6d98b61b256cc32ba6117a005500b5375a9eb5fd27b1013821691510f",
+          "sha256": "4d8bdbe0e365a70da140ddd0fc8ad9138d3b37354aa1411c2006cb6181405b8e",
+          "size": 168686,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.19/GunbedVisuals-1.21.10-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.19/GunbedVisuals-1.21.10-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-1.21.10-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/GunbedVisuals-1.21.10-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/GunbedVisuals-1.21.10-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-1.21.10-0.3.19.jar"
           ]
         },
         {
           "file": "nuit-fabric-1.21.10-1.0.0-beta.1+gunbed.1.21.10.jar",
-          "size": 158396,
           "sha256": "4fc22d179dac8c09cbb3fda9ba8a9134da4c3240ce42585f279b00d2baebdfed",
+          "size": 158396,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/nuit-fabric-1.21.10-1.0.0-beta.1+gunbed.1.21.10.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/nuit-fabric-1.21.10-1.0.0-beta.1+gunbed.1.21.10.jar",
@@ -133,25 +153,35 @@
         },
         {
           "file": "GunbedAssets-0.3.20.jar",
-          "size": 75583226,
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "size": 75583226,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar"
           ]
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "size": 475804,
+          "urls": [
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar"
+          ]
         }
       ],
-      "downloadBytes": 78242888
+      "downloadBytes": 92939090
     },
     "1.21.11": {
       "version": "1.21.11",
-      "filename": "Gunbed-Modpack-1.21.11-0.3.20.zip",
+      "filename": "Gunbed-Zombie-Modpack-1.21.11-0.3.21.zip",
       "files": [
         {
           "file": "fabric-api-0.141.6+1.21.11.jar",
-          "size": 2426039,
           "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f",
+          "size": 2426039,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/fabric-api-0.141.6+1.21.11.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/fabric-api-0.141.6+1.21.11.jar",
@@ -160,18 +190,18 @@
         },
         {
           "file": "GunbedVisuals-1.21.11-0.3.19.jar",
-          "size": 125397,
-          "sha256": "7528d6c40a44f37f7ee4f977406e824667773b45defca3d78f2d7406223100de",
+          "sha256": "d95c63de67d814c2eada8cdf06047ea139a6882bea92bbedc7739bf8234b7c2d",
+          "size": 168705,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.19/GunbedVisuals-1.21.11-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.19/GunbedVisuals-1.21.11-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-1.21.11-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/GunbedVisuals-1.21.11-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/GunbedVisuals-1.21.11-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-1.21.11-0.3.19.jar"
           ]
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc1.21.11.jar",
-          "size": 779052,
           "sha256": "b82c955b2734f5538c52099971fece2509a926a4a27156fac2c85cfac1be5e59",
+          "size": 779052,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/nuit-fabric-1.0.0-beta.6+mc1.21.11.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/nuit-fabric-1.0.0-beta.6+mc1.21.11.jar",
@@ -180,25 +210,35 @@
         },
         {
           "file": "GunbedAssets-0.3.20.jar",
-          "size": 75583226,
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "size": 75583226,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar"
           ]
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "size": 475804,
+          "urls": [
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar"
+          ]
         }
       ],
-      "downloadBytes": 78913714
+      "downloadBytes": 93609916
     },
     "26.1": {
       "version": "26.1",
-      "filename": "Gunbed-Modpack-26.1-0.3.20.zip",
+      "filename": "Gunbed-Zombie-Modpack-26.1-0.3.21.zip",
       "files": [
         {
           "file": "fabric-api-0.155.3+26.1.2.jar",
-          "size": 2521340,
           "sha256": "7fe7bea3dbb7b2e9ff998ab583130cd62fab22ab8a5229656ff14b2e648c91dd",
+          "size": 2521340,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/fabric-api-0.155.3+26.1.2.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/fabric-api-0.155.3+26.1.2.jar",
@@ -207,18 +247,18 @@
         },
         {
           "file": "GunbedVisuals-26.1-0.3.19.jar",
-          "size": 125904,
-          "sha256": "5f257ab31a1e7f5f3fef1992bac4a2d764577bf2b0eaceec76a7d040c3c23451",
+          "sha256": "1d5f270e104f14d98d18737673975c3318177fef944079551ca839d204d6c441",
+          "size": 169544,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.19/GunbedVisuals-26.1-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.19/GunbedVisuals-26.1-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-26.1-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/GunbedVisuals-26.1-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/GunbedVisuals-26.1-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-26.1-0.3.19.jar"
           ]
         },
         {
           "file": "nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
-          "size": 749474,
           "sha256": "b8d18dd300ff99643364e2b36d7746842a91d051200f4dd0d46849ed6b8cca57",
+          "size": 749474,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
@@ -227,25 +267,35 @@
         },
         {
           "file": "GunbedAssets-0.3.20.jar",
-          "size": 75583226,
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "size": 75583226,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar"
           ]
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "size": 475804,
+          "urls": [
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar"
+          ]
         }
       ],
-      "downloadBytes": 78979944
+      "downloadBytes": 93676478
     },
     "26.1.1": {
       "version": "26.1.1",
-      "filename": "Gunbed-Modpack-26.1.1-0.3.20.zip",
+      "filename": "Gunbed-Zombie-Modpack-26.1.1-0.3.21.zip",
       "files": [
         {
           "file": "fabric-api-0.155.3+26.1.2.jar",
-          "size": 2521340,
           "sha256": "7fe7bea3dbb7b2e9ff998ab583130cd62fab22ab8a5229656ff14b2e648c91dd",
+          "size": 2521340,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/fabric-api-0.155.3+26.1.2.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/fabric-api-0.155.3+26.1.2.jar",
@@ -254,18 +304,18 @@
         },
         {
           "file": "GunbedVisuals-26.1.1-0.3.19.jar",
-          "size": 125908,
-          "sha256": "4de18d006b8fcc5aebdb6f324bb283f792401486d049542919783bb4d5ddc3dc",
+          "sha256": "13a8023b1e8d902866fc4b3081ce61bd396798abf84278ece6c94a35adb7a22e",
+          "size": 169550,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.19/GunbedVisuals-26.1.1-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.19/GunbedVisuals-26.1.1-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-26.1.1-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/GunbedVisuals-26.1.1-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/GunbedVisuals-26.1.1-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-26.1.1-0.3.19.jar"
           ]
         },
         {
           "file": "nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
-          "size": 749474,
           "sha256": "b8d18dd300ff99643364e2b36d7746842a91d051200f4dd0d46849ed6b8cca57",
+          "size": 749474,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
@@ -274,25 +324,35 @@
         },
         {
           "file": "GunbedAssets-0.3.20.jar",
-          "size": 75583226,
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "size": 75583226,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar"
           ]
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "size": 475804,
+          "urls": [
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar"
+          ]
         }
       ],
-      "downloadBytes": 78979948
+      "downloadBytes": 93676484
     },
     "26.1.2": {
       "version": "26.1.2",
-      "filename": "Gunbed-Modpack-26.1.2-0.3.20.zip",
+      "filename": "Gunbed-Zombie-Modpack-26.1.2-0.3.21.zip",
       "files": [
         {
           "file": "fabric-api-0.155.3+26.1.2.jar",
-          "size": 2521340,
           "sha256": "7fe7bea3dbb7b2e9ff998ab583130cd62fab22ab8a5229656ff14b2e648c91dd",
+          "size": 2521340,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/fabric-api-0.155.3+26.1.2.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/fabric-api-0.155.3+26.1.2.jar",
@@ -301,18 +361,18 @@
         },
         {
           "file": "GunbedVisuals-26.1.2-0.3.19.jar",
-          "size": 125910,
-          "sha256": "8ab9ca1a9b1f5f27e26ded7a961b8d1b2e1fe4eb687c7ef7f34815a66bedfd87",
+          "sha256": "4c4c416f963d190453a5c76a653584de44ef1d13a45f5c2fbed9e71020fdd918",
+          "size": 169551,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.19/GunbedVisuals-26.1.2-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.19/GunbedVisuals-26.1.2-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-26.1.2-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/GunbedVisuals-26.1.2-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/GunbedVisuals-26.1.2-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-26.1.2-0.3.19.jar"
           ]
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.1.2.jar",
-          "size": 775012,
           "sha256": "1787e63f2cc1cf9d3df30ecf8d87dcecdac27a11e2905e054e7e22e0a8012a84",
+          "size": 775012,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/nuit-fabric-1.0.0-beta.6+mc26.1.2.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/nuit-fabric-1.0.0-beta.6+mc26.1.2.jar",
@@ -321,25 +381,35 @@
         },
         {
           "file": "GunbedAssets-0.3.20.jar",
-          "size": 75583226,
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "size": 75583226,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar"
           ]
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "size": 475804,
+          "urls": [
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar"
+          ]
         }
       ],
-      "downloadBytes": 79005488
+      "downloadBytes": 93702023
     },
     "26.2": {
       "version": "26.2",
-      "filename": "Gunbed-Modpack-26.2-0.3.20.zip",
+      "filename": "Gunbed-Zombie-Modpack-26.2-0.3.21.zip",
       "files": [
         {
           "file": "fabric-api-0.161.0+26.2.jar",
-          "size": 2566123,
           "sha256": "e5b858ceb13290c274e31cb888ff5a1a40cb91067e7ffab0b5b775aec51e216a",
+          "size": 2566123,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/fabric-api-0.161.0+26.2.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/fabric-api-0.161.0+26.2.jar",
@@ -348,18 +418,18 @@
         },
         {
           "file": "GunbedVisuals-26.2-0.3.19.jar",
-          "size": 125822,
-          "sha256": "7f2908834523767dedb0a90bf5a918a08dbd63b244ff1e882fdfde26cfd7b140",
+          "sha256": "b2435d83e513006be58b0d60f3cbe7aeaec51870826e62382a7bfbb6dea6a712",
+          "size": 169560,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.19/GunbedVisuals-26.2-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.19/GunbedVisuals-26.2-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-26.2-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/GunbedVisuals-26.2-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/GunbedVisuals-26.2-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-26.2-0.3.19.jar"
           ]
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.2.jar",
-          "size": 777863,
           "sha256": "819a1337f9a91b4f0eac9de4c3bf13eee64980f3de3799eaf33a20811655c1cc",
+          "size": 777863,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/nuit-fabric-1.0.0-beta.6+mc26.2.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/nuit-fabric-1.0.0-beta.6+mc26.2.jar",
@@ -368,25 +438,35 @@
         },
         {
           "file": "GunbedAssets-0.3.20.jar",
-          "size": 75583226,
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "size": 75583226,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar"
           ]
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "size": 475804,
+          "urls": [
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar"
+          ]
         }
       ],
-      "downloadBytes": 79053034
+      "downloadBytes": 93749666
     },
     "26.3": {
       "version": "26.3",
-      "filename": "Gunbed-Modpack-26.3-0.3.20.zip",
+      "filename": "Gunbed-Zombie-Modpack-26.3-0.3.21.zip",
       "files": [
         {
           "file": "fabric-api-0.165.2+26.3.jar",
-          "size": 1779306,
           "sha256": "2612a078a5daa06d9a14cabad40fe66de36b8cb22ee8cdf346d5d9894478c392",
+          "size": 1779306,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/fabric-api-0.165.2+26.3.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/fabric-api-0.165.2+26.3.jar",
@@ -395,18 +475,18 @@
         },
         {
           "file": "GunbedVisuals-26.3-0.3.19.jar",
-          "size": 125793,
-          "sha256": "f322dbbe6fbacf7ac5dfe08bc62394b6e57c253cabd5bb94947be9b0d0c705ea",
+          "sha256": "c2f5602ccfb4d8c118c6ead06603a5e66aeff2c03fe1eb33796fdc93a2afa843",
+          "size": 169602,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.19/GunbedVisuals-26.3-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.19/GunbedVisuals-26.3-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-26.3-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/GunbedVisuals-26.3-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/GunbedVisuals-26.3-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-26.3-0.3.19.jar"
           ]
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.3.jar",
-          "size": 779958,
           "sha256": "3ba4b648e79b7ae4646ee28ee172289b25488768747abc2abd36fb8bdf862962",
+          "size": 779958,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/nuit-fabric-1.0.0-beta.6+mc26.3.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/094dbc5c09bea5a9281b5c95e5fd138ebf9c0926/docs/files/v0.3.13/nuit-fabric-1.0.0-beta.6+mc26.3.jar",
@@ -415,16 +495,26 @@
         },
         {
           "file": "GunbedAssets-0.3.20.jar",
-          "size": 75583226,
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
+          "size": 75583226,
           "urls": [
             "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.20/GunbedAssets-0.3.20.jar",
             "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar"
           ]
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "size": 475804,
+          "urls": [
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.21/ZombieAssets-0.1.0.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar"
+          ]
         }
       ],
-      "downloadBytes": 78268283
+      "downloadBytes": 92964986
     }
   },
   "thirdParty": "# Sources and assets\n\nThe geometry helpers in `kr.mzs.gunbedvisual.model` are adapted from\n[TACZ-FabricContinued](https://github.com/kalkulator777/TACZ-FabricContinued),\nbranch `1.21.11`, retaining GPL-3.0 terms. `LICENSE` contains the licence.\nThe exact upstream commit is `aa1ba11c3ea84d4079833d03872e9a2e7fd5d1e5`.\nThe mesh coordinate system follows that implementation. Gunbed's networking,\nversion adapters and animation timing are separate from TaCZ's combat code.\n\nTaCZ's original art assets have separate CC BY-NC-ND-4.0 terms. They are not\nrelicensed as GPL by this project. Source art is kept byte-for-byte unchanged;\ndo not redistribute altered art or treat it as freely editable commercial art.\nThe paid Exception Armorer pack shown in the reference video is not included.\n\nOriginal project: https://github.com/MCModderAnchor/TACZ\nArt licence: https://creativecommons.org/licenses/by-nc-nd/4.0/\n\nThe distribution also includes the [Nuit skybox renderer](https://github.com/FlashyReese/nuit)\nby FlashyReese, under the MIT licence, and Fabric API under Apache-2.0.\nFor Minecraft 1.21.9 and 1.21.10, Gunbed provides compatibility builds from\nNuit's `1.21.8/dev` commit `d17a1599aaa021b18a0d98d7ceef95ff51257ac9`.\nThose builds adapt key categories, resource reloads, the celestial rendering\ntype and the sky-pass method signature. Their complete sources and MIT licence\nare included in `source/Nuit-Gunbed-ports.zip`. Other Nuit JARs are unmodified upstream releases.\nNuit renders metadata converted from the user's local Dewier pack; the original\nimage files remain unchanged. That user-supplied pack is delivered separately\nas the server resource pack, not inside these client mod JARs.\n\n\n## TRG-21 reference model and sounds\n\nTRG-21 Infinity D geometry, UVs and four skeletal clips: Tettra / Jeongtae Kim; textures: CryTek. Original game: Sudden Attack. Public source: https://blog.jeongtae.com/css-서든어택-trg21인피니티d-스킨-완성-배포/ . Original attribution is retained; these artworks are not relicensed under the client code GPL. Classic DTX texture was supplied by the server owner; its pixels remain unchanged after format decoding. Minecraft player skin is rendered separately and follows the imported arm bones. Source engine binary layouts were consulted from ValveSoftware/source-sdk-2013; no Source engine runtime code is included.\n\n\n## Classic TRG reference update (0.3.4)\nThe supplied MiniSudden standalone pack contains TRG-shaped DirectX meshes named mk23.x/mk23sd.x and their mk23.bmp texture. The Gunbed converter retains the mesh topology and UVs, rigs its magazine and bolt, and uses the player's Minecraft skin for native Minecraft block-arm rendering. The JTK donor rig is retimed using observed landmarks in the user-provided review https://www.youtube.com/watch?v=UzyyS6ncmMU . Original Sudden Attack animation data was not supplied; these are adapted poses. No silenced shot audio from the review is included. The existing normal TRG shot is retained.\n\n## Gunbed renewal assets (0.3.6)\nQA grenade/incendiary/flashbang models and sheet textures are converted from the server owner’s local zombie-server resource pack. Churi team equipment and selected team block textures are copied from the owner’s local Churi pack. Turret silhouettes are adapted from the four owner-supplied model archives; these artworks retain their original ownership and are not relicensed as client code. ThrowablePose is newly authored Gunbed code.\n\n\n## Combat update (0.3.8)\nLesRaisins Tactical Equipements (xjqsh, LeComte): dagger, karambit and baseball-bat art and reference pin/throw motion. Source https://github.com/LesRaisins-Studios/LesRaisins-Tactical-Equipements . Code GPL-3.0; art remains All Rights Reserved by its authors and is not relicensed by this project. Original four owner-supplied turret meshes retain topology, UVs and normals; Gunbed adds material and team colours. M79 geometry/icon and radio TTS/filtering are newly authored here. Orbital Laser by astroneer83 is a visual reference only; none of its mod/runtime/art assets are bundled. No Counter-Strike voice samples are used.\n\n\nRadio callouts in 0.3.8: newly synthesized with Piper Joe medium (CC0 dataset), https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/joe/medium . Local generation uses Piper GPL-3.0, https://github.com/OHF-Voice/piper1-gpl . No Counter-Strike voice recording is included.\n\n## Public TaCZ 1.2.0 additions (Gunbed 0.3.11)\n\nSixteen newly public guns and six fixed optic models come from the official 1.20.1 Forge 1.2.0 release (CurseForge file 9454481; Modrinth QGCbNkTy). Archive SHA-1: 0b91b2d09f724cdf412da93370cd57d311e78e67. Existing source art remains unchanged; newly copied model, texture, animation and OGG files retain their original bytes and CC BY-NC-ND-4.0 terms. These are compatibility rendering presets, not the original Forge runtime. Exception Armorer / Bykoei paid content, beta paywalls, thermal simulation and XM157 ballistic computers are not included.\n\n## Optical clearance compatibility fix (shared assets 0.3.15)\n\nFive mounted optics now include a derived static compatibility mesh with an open optical bore. Original Bedrock geometry is retained alongside it for attribution and reproducibility; textures are unchanged. The native TaCZ lens/stencil shader is not part of Gunbed's renderer. The bake removes opaque surfaces inside the viewing aperture while retaining external housing, and is generated by tools/visual-model-check/OpticClearanceBake.java. The 1P87 already has an open window and is unchanged. No new gun pack is bundled in this update. Original artwork retains its authorship and terms; it is not relicensed as Gunbed code.\n\n\n## Public add-on compatibility (0.3.16)\n\nWeapons and Tactics 0.4.1 (ronmc), CurseForge file 9473780: 57 firearm presets, including separately named training/nonlethal variants converted into Gunbed combat presets. DeltaForce Melee Pack 0.2.0 (delta_wt), file 8136153: 11 melee presets. 42Labs 0.26.1 (42labk), file 8932770: three throwable presets (gas, delayed HE and impact HE), plus a reference throw clip retargeted to Minecraft player arms. Original art, sounds, authorship and terms remain those of the original projects. No Forge runtime classes are bundled. Gunbed's protocol, combat and renderer are separate implementations. Archive hashes and exact imported IDs are recorded in addons-v16-import.json in the compatibility source archive. Original download locations:\nhttps://www.curseforge.com/minecraft/customization/tacz-weapons-and-tactics\nhttps://www.curseforge.com/minecraft/mc-mods/deltaforce-melee-pack\nhttps://www.curseforge.com/minecraft/customization/tacz-42labs-gunpack\n",
@@ -490,6 +580,14 @@
       "sha256": "c43eaafbcbec1db4f2d21a40e2656d2ddfd7a5d17a5b3f3a5bdc4c06e2d5f1ed",
       "mirrors": [
         "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.20/Texture-separation-source.zip"
+      ]
+    },
+    "Zombie-renewal-source.zip": {
+      "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/Zombie-renewal-source.zip",
+      "sha256": "f64883ca095009cd49e6e5a1737fda1851e0af3c6e1a8602a2e16e79278324b5",
+      "size": 511307,
+      "mirrors": [
+        "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.21/Zombie-renewal-source.zip"
       ]
     }
   }

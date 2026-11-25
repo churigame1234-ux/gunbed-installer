@@ -4,7 +4,8 @@ import datetime,hashlib,json,os,shutil,uuid,zipfile
 from pathlib import Path
 from file_access import InstallAccessError,access_error,clear_readonly,preflight_files,probe_directory
 
-IDS={'gunbed_visuals','gunbed_assets','fabric-api','nuit'}
+PUBLIC_IDS={'gunbed_visuals','gunbed_assets','fabric-api','nuit','mzs_zombie_assets'}
+IDS=PUBLIC_IDS|{'mzs_tissou_local'}
 PROFILE_FILES=('launcher_profiles.json','launcher_profiles_microsoft_store.json')
 
 def digest(data):return hashlib.sha256(data).hexdigest()
@@ -86,6 +87,9 @@ class Installer:
             if 'source/source-links.json' in archive.namelist():legal_files['source/source-links.json']=archive.read('source/source-links.json')
             else:
                 for name in ('source/GunbedVisuals-source.zip','source/Nuit-Gunbed-ports.zip'):legal_files[name]=archive.read(name)
+        assert set(incoming)==PUBLIC_IDS
+        from tissou_runtime import local_assets
+        incoming['mzs_tissou_local']=('Tissou-local.jar',local_assets(log))
         assert set(incoming)==IDS
         libraries=[(entry,self.verified(entry['path'],entry['sha256'])) for entry in chosen['libraries']]
         old_profiles=self.profiles(root)
@@ -157,7 +161,7 @@ class Installer:
                     if same_mc and previous_dir.resolve()==game:
                         template=dict(item);item['lastVersionId']=profile['id'];updated.append(key)
                 entry={k:v for k,v in template.items() if k in ('javaArgs','javaDir','resolution')}
-                entry.update({'name':'Gunbed '+version,'type':'custom','icon':'Diamond_Sword','created':profiles.get('gunbed-'+version,{}).get('created',now),'lastUsed':now,'lastVersionId':profile['id'],'gameDir':str(game)})
+                entry.update({'name':'Gunbed + 좀비 '+version,'type':'custom','icon':'Diamond_Sword','created':profiles.get('gunbed-'+version,{}).get('created',now),'lastUsed':now,'lastVersionId':profile['id'],'gameDir':str(game)})
                 profiles['gunbed-'+version]=entry
                 write(destination,json.dumps(current,ensure_ascii=False,indent=2).encode('utf-8'))
             for name,expected in untouched.items():

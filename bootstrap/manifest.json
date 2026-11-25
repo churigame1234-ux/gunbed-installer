@@ -14,9 +14,9 @@
         {
           "file": "GunbedVisuals-1.21.8-0.3.19.jar",
           "path": "1.21.8/mods/GunbedVisuals-1.21.8-0.3.19.jar",
-          "sha256": "2f133d1845bf476a8e16e346ff98c0945674ea7a99acf41675ec194735b13820",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-1.21.8-0.3.19.jar",
-          "size": 124797
+          "sha256": "416b9b592b465b97652b2d622bd580397bb4d0fdb250a9e4d238cc21ee5682fc",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-1.21.8-0.3.19.jar",
+          "size": 168007
         },
         {
           "file": "nuit-fabric-1.0.0-beta.1+mc1.21.8.jar",
@@ -30,6 +30,13 @@
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
           "size": 75583226
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "path": "mods/ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar",
+          "size": 475804
         }
       ],
       "libraries": [
@@ -96,9 +103,9 @@
         {
           "file": "GunbedVisuals-1.21.9-0.3.19.jar",
           "path": "1.21.9/mods/GunbedVisuals-1.21.9-0.3.19.jar",
-          "sha256": "370181154e0a7ac08531ccd45b12e6b0302033ebdafc51eafc851f04645eca93",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-1.21.9-0.3.19.jar",
-          "size": 125377
+          "sha256": "1ec7ec5d8fd2cc830144abbb09aafcbc811520d84cc4866ff91e4808def490ab",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-1.21.9-0.3.19.jar",
+          "size": 168683
         },
         {
           "file": "nuit-fabric-1.21.9-1.0.0-beta.1+gunbed.1.21.9.jar",
@@ -112,6 +119,13 @@
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
           "size": 75583226
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "path": "mods/ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar",
+          "size": 475804
         }
       ],
       "libraries": [
@@ -178,9 +192,9 @@
         {
           "file": "GunbedVisuals-1.21.10-0.3.19.jar",
           "path": "1.21.10/mods/GunbedVisuals-1.21.10-0.3.19.jar",
-          "sha256": "92a0f6d6d98b61b256cc32ba6117a005500b5375a9eb5fd27b1013821691510f",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-1.21.10-0.3.19.jar",
-          "size": 125378
+          "sha256": "4d8bdbe0e365a70da140ddd0fc8ad9138d3b37354aa1411c2006cb6181405b8e",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-1.21.10-0.3.19.jar",
+          "size": 168686
         },
         {
           "file": "nuit-fabric-1.21.10-1.0.0-beta.1+gunbed.1.21.10.jar",
@@ -194,6 +208,13 @@
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
           "size": 75583226
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "path": "mods/ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar",
+          "size": 475804
         }
       ],
       "libraries": [
@@ -260,9 +281,9 @@
         {
           "file": "GunbedVisuals-1.21.11-0.3.19.jar",
           "path": "1.21.11/mods/GunbedVisuals-1.21.11-0.3.19.jar",
-          "sha256": "7528d6c40a44f37f7ee4f977406e824667773b45defca3d78f2d7406223100de",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-1.21.11-0.3.19.jar",
-          "size": 125397
+          "sha256": "d95c63de67d814c2eada8cdf06047ea139a6882bea92bbedc7739bf8234b7c2d",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-1.21.11-0.3.19.jar",
+          "size": 168705
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc1.21.11.jar",
@@ -276,6 +297,13 @@
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
           "size": 75583226
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "path": "mods/ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar",
+          "size": 475804
         }
       ],
       "libraries": [
@@ -342,9 +370,9 @@
         {
           "file": "GunbedVisuals-26.1-0.3.19.jar",
           "path": "26.1/mods/GunbedVisuals-26.1-0.3.19.jar",
-          "sha256": "5f257ab31a1e7f5f3fef1992bac4a2d764577bf2b0eaceec76a7d040c3c23451",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-26.1-0.3.19.jar",
-          "size": 125904
+          "sha256": "1d5f270e104f14d98d18737673975c3318177fef944079551ca839d204d6c441",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-26.1-0.3.19.jar",
+          "size": 169544
         },
         {
           "file": "nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
@@ -358,6 +386,13 @@
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
           "size": 75583226
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "path": "mods/ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar",
+          "size": 475804
         }
       ],
       "libraries": [
@@ -418,9 +453,9 @@
         {
           "file": "GunbedVisuals-26.1.1-0.3.19.jar",
           "path": "26.1.1/mods/GunbedVisuals-26.1.1-0.3.19.jar",
-          "sha256": "4de18d006b8fcc5aebdb6f324bb283f792401486d049542919783bb4d5ddc3dc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-26.1.1-0.3.19.jar",
-          "size": 125908
+          "sha256": "13a8023b1e8d902866fc4b3081ce61bd396798abf84278ece6c94a35adb7a22e",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-26.1.1-0.3.19.jar",
+          "size": 169550
         },
         {
           "file": "nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
@@ -434,6 +469,13 @@
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
           "size": 75583226
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "path": "mods/ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar",
+          "size": 475804
         }
       ],
       "libraries": [
@@ -494,9 +536,9 @@
         {
           "file": "GunbedVisuals-26.1.2-0.3.19.jar",
           "path": "26.1.2/mods/GunbedVisuals-26.1.2-0.3.19.jar",
-          "sha256": "8ab9ca1a9b1f5f27e26ded7a961b8d1b2e1fe4eb687c7ef7f34815a66bedfd87",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-26.1.2-0.3.19.jar",
-          "size": 125910
+          "sha256": "4c4c416f963d190453a5c76a653584de44ef1d13a45f5c2fbed9e71020fdd918",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-26.1.2-0.3.19.jar",
+          "size": 169551
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.1.2.jar",
@@ -510,6 +552,13 @@
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
           "size": 75583226
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "path": "mods/ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar",
+          "size": 475804
         }
       ],
       "libraries": [
@@ -570,9 +619,9 @@
         {
           "file": "GunbedVisuals-26.2-0.3.19.jar",
           "path": "26.2/mods/GunbedVisuals-26.2-0.3.19.jar",
-          "sha256": "7f2908834523767dedb0a90bf5a918a08dbd63b244ff1e882fdfde26cfd7b140",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-26.2-0.3.19.jar",
-          "size": 125822
+          "sha256": "b2435d83e513006be58b0d60f3cbe7aeaec51870826e62382a7bfbb6dea6a712",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-26.2-0.3.19.jar",
+          "size": 169560
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.2.jar",
@@ -586,6 +635,13 @@
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
           "size": 75583226
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "path": "mods/ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar",
+          "size": 475804
         }
       ],
       "libraries": [
@@ -646,9 +702,9 @@
         {
           "file": "GunbedVisuals-26.3-0.3.19.jar",
           "path": "26.3/mods/GunbedVisuals-26.3-0.3.19.jar",
-          "sha256": "f322dbbe6fbacf7ac5dfe08bc62394b6e57c253cabd5bb94947be9b0d0c705ea",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.19/GunbedVisuals-26.3-0.3.19.jar",
-          "size": 125793
+          "sha256": "c2f5602ccfb4d8c118c6ead06603a5e66aeff2c03fe1eb33796fdc93a2afa843",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/GunbedVisuals-26.3-0.3.19.jar",
+          "size": 169602
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.3.jar",
@@ -662,6 +718,13 @@
           "sha256": "8409eda479b4e110dfa522509277eb7fa87140a29503775f607c0cf38e892a70",
           "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.20/GunbedAssets-0.3.20.jar",
           "size": 75583226
+        },
+        {
+          "file": "ZombieAssets-0.1.0.jar",
+          "path": "mods/ZombieAssets-0.1.0.jar",
+          "sha256": "9ec6d8e63a9d5f8d96cfd3cf4075d659701da03ab1649196460c74df51f39540",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.21/ZombieAssets-0.1.0.jar",
+          "size": 475804
         }
       ],
       "libraries": [
