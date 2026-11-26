@@ -1,69 +1,69 @@
 {
-  "version": "0.3.27",
+  "version": "0.3.28",
   "client_version": "0.3.19",
-  "online_bytes": 11202721,
-  "direct_url": "files/v0.3.27/GunbedInstaller.exe",
-  "raw_url": "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.27/GunbedInstaller.exe",
-  "release_base": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.27/",
+  "online_bytes": 11202549,
+  "direct_url": "files/v0.3.28/GunbedInstaller.exe",
+  "raw_url": "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.28/GunbedInstaller.exe",
+  "release_base": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.28/",
   "archive": {
-    "url": "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.27/GunbedInstaller-0.3.27.zip",
-    "size": 10926824,
-    "sha256": "5e51810decc1797d91d92bc31cfec40c1d137a9cf7da24d76df0ef378396e4b1"
+    "url": "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.28/GunbedInstaller-0.3.28.zip",
+    "size": 10926066,
+    "sha256": "7f24bb09cf494bdc535b5265aa89dca0ad7122bf0efc370260876db9e41bc211"
   },
   "versions": [
     {
       "version": "1.21.8",
       "file": "GunbedInstaller-1.21.8.exe",
-      "size": 11202721,
-      "sha256": "ae397534593a16f5cfccf5e77dc928ddc868c1ff7ba3706e42cf65dae2babf25"
+      "size": 11202549,
+      "sha256": "b8d73fe0a8a66eb2e5c861729c8f281d8b5ab30cc16f3a1b0171764646fe0cb5"
     },
     {
       "version": "1.21.9",
       "file": "GunbedInstaller-1.21.9.exe",
-      "size": 11202721,
-      "sha256": "ae397534593a16f5cfccf5e77dc928ddc868c1ff7ba3706e42cf65dae2babf25"
+      "size": 11202549,
+      "sha256": "b8d73fe0a8a66eb2e5c861729c8f281d8b5ab30cc16f3a1b0171764646fe0cb5"
     },
     {
       "version": "1.21.10",
       "file": "GunbedInstaller-1.21.10.exe",
-      "size": 11202721,
-      "sha256": "ae397534593a16f5cfccf5e77dc928ddc868c1ff7ba3706e42cf65dae2babf25"
+      "size": 11202549,
+      "sha256": "b8d73fe0a8a66eb2e5c861729c8f281d8b5ab30cc16f3a1b0171764646fe0cb5"
     },
     {
       "version": "1.21.11",
       "file": "GunbedInstaller-1.21.11.exe",
-      "size": 11202721,
-      "sha256": "ae397534593a16f5cfccf5e77dc928ddc868c1ff7ba3706e42cf65dae2babf25"
+      "size": 11202549,
+      "sha256": "b8d73fe0a8a66eb2e5c861729c8f281d8b5ab30cc16f3a1b0171764646fe0cb5"
     },
     {
       "version": "26.1",
       "file": "GunbedInstaller-26.1.exe",
-      "size": 11202721,
-      "sha256": "ae397534593a16f5cfccf5e77dc928ddc868c1ff7ba3706e42cf65dae2babf25"
+      "size": 11202549,
+      "sha256": "b8d73fe0a8a66eb2e5c861729c8f281d8b5ab30cc16f3a1b0171764646fe0cb5"
     },
     {
       "version": "26.1.1",
       "file": "GunbedInstaller-26.1.1.exe",
-      "size": 11202721,
-      "sha256": "ae397534593a16f5cfccf5e77dc928ddc868c1ff7ba3706e42cf65dae2babf25"
+      "size": 11202549,
+      "sha256": "b8d73fe0a8a66eb2e5c861729c8f281d8b5ab30cc16f3a1b0171764646fe0cb5"
     },
     {
       "version": "26.1.2",
       "file": "GunbedInstaller-26.1.2.exe",
-      "size": 11202721,
-      "sha256": "ae397534593a16f5cfccf5e77dc928ddc868c1ff7ba3706e42cf65dae2babf25"
+      "size": 11202549,
+      "sha256": "b8d73fe0a8a66eb2e5c861729c8f281d8b5ab30cc16f3a1b0171764646fe0cb5"
     },
     {
       "version": "26.2",
       "file": "GunbedInstaller-26.2.exe",
-      "size": 11202721,
-      "sha256": "ae397534593a16f5cfccf5e77dc928ddc868c1ff7ba3706e42cf65dae2babf25"
+      "size": 11202549,
+      "sha256": "b8d73fe0a8a66eb2e5c861729c8f281d8b5ab30cc16f3a1b0171764646fe0cb5"
     },
     {
       "version": "26.3",
       "file": "GunbedInstaller-26.3.exe",
-      "size": 11202721,
-      "sha256": "ae397534593a16f5cfccf5e77dc928ddc868c1ff7ba3706e42cf65dae2babf25"
+      "size": 11202549,
+      "sha256": "b8d73fe0a8a66eb2e5c861729c8f281d8b5ab30cc16f3a1b0171764646fe0cb5"
     }
   ],
   "shared_assets_version": "0.3.20"
