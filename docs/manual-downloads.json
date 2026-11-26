@@ -1,11 +1,11 @@
 {
-  "release": "0.3.23",
+  "release": "0.3.24",
   "loader": "0.19.5",
   "assets": "0.3.20",
   "versions": {
     "1.21.8": {
       "version": "1.21.8",
-      "filename": "Gunbed-Zombie-Modpack-1.21.8-0.3.23.zip",
+      "filename": "Gunbed-Zombie-Modpack-1.21.8-0.3.24.zip",
       "files": [
         {
           "file": "fabric-api-0.136.1+1.21.8.jar",
@@ -19,12 +19,12 @@
         },
         {
           "file": "GunbedVisuals-1.21.8-0.3.19.jar",
-          "sha256": "0216d0270737cb3cd294c1117b2158cdce4aaf28a4498bb97322633a9cc32fee",
-          "size": 168096,
+          "sha256": "dcce2a8656832330b0aa1839e5468c0ccb88ffb1a94ab88994206328146d8282",
+          "size": 168207,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.23/GunbedVisuals-1.21.8-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.23/GunbedVisuals-1.21.8-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.23/GunbedVisuals-1.21.8-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.24/GunbedVisuals-1.21.8-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.24/GunbedVisuals-1.21.8-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.24/GunbedVisuals-1.21.8-0.3.19.jar"
           ]
         },
         {
@@ -62,7 +62,7 @@
     },
     "1.21.9": {
       "version": "1.21.9",
-      "filename": "Gunbed-Zombie-Modpack-1.21.9-0.3.23.zip",
+      "filename": "Gunbed-Zombie-Modpack-1.21.9-0.3.24.zip",
       "files": [
         {
           "file": "fabric-api-0.134.1+1.21.9.jar",
@@ -76,12 +76,12 @@
         },
         {
           "file": "GunbedVisuals-1.21.9-0.3.19.jar",
-          "sha256": "a9fc3e27c284dffaadaf43f0bb27ce91783eff48b917b155ad608a1276098be2",
-          "size": 168767,
+          "sha256": "ad401cce9ff6ae263fa65f3a2a15b70ff2d0f0b873fc36612c0222099e5de342",
+          "size": 168872,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.23/GunbedVisuals-1.21.9-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.23/GunbedVisuals-1.21.9-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.23/GunbedVisuals-1.21.9-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.24/GunbedVisuals-1.21.9-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.24/GunbedVisuals-1.21.9-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.24/GunbedVisuals-1.21.9-0.3.19.jar"
           ]
         },
         {
@@ -119,7 +119,7 @@
     },
     "1.21.10": {
       "version": "1.21.10",
-      "filename": "Gunbed-Zombie-Modpack-1.21.10-0.3.23.zip",
+      "filename": "Gunbed-Zombie-Modpack-1.21.10-0.3.24.zip",
       "files": [
         {
           "file": "fabric-api-0.138.4+1.21.10.jar",
@@ -133,12 +133,12 @@
         },
         {
           "file": "GunbedVisuals-1.21.10-0.3.19.jar",
-          "sha256": "ebd81e358846dfab0a0974de92a783126159cc2c035bc50c2cace6b4b253e658",
-          "size": 168769,
+          "sha256": "7bb3b339e166521cd7d8f22a288a0dd84cacdadf0d8e19f15750cb5f0b068ffa",
+          "size": 168874,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.23/GunbedVisuals-1.21.10-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.23/GunbedVisuals-1.21.10-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.23/GunbedVisuals-1.21.10-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.24/GunbedVisuals-1.21.10-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.24/GunbedVisuals-1.21.10-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.24/GunbedVisuals-1.21.10-0.3.19.jar"
           ]
         },
         {
@@ -176,7 +176,7 @@
     },
     "1.21.11": {
       "version": "1.21.11",
-      "filename": "Gunbed-Zombie-Modpack-1.21.11-0.3.23.zip",
+      "filename": "Gunbed-Zombie-Modpack-1.21.11-0.3.24.zip",
       "files": [
         {
           "file": "fabric-api-0.141.6+1.21.11.jar",
@@ -190,12 +190,12 @@
         },
         {
           "file": "GunbedVisuals-1.21.11-0.3.19.jar",
-          "sha256": "7822477512347f5ef1bed1f737aefded7a43efe97e1b998cbf4809b901816f14",
-          "size": 168788,
+          "sha256": "d30a95d450abce8231faf42ef4cdbcc0b797fa5b30202e50aa0ce704b38f1cc8",
+          "size": 168893,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.23/GunbedVisuals-1.21.11-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.23/GunbedVisuals-1.21.11-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.23/GunbedVisuals-1.21.11-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.24/GunbedVisuals-1.21.11-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.24/GunbedVisuals-1.21.11-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.24/GunbedVisuals-1.21.11-0.3.19.jar"
           ]
         },
         {
@@ -233,7 +233,7 @@
     },
     "26.1": {
       "version": "26.1",
-      "filename": "Gunbed-Zombie-Modpack-26.1-0.3.23.zip",
+      "filename": "Gunbed-Zombie-Modpack-26.1-0.3.24.zip",
       "files": [
         {
           "file": "fabric-api-0.155.3+26.1.2.jar",
@@ -247,12 +247,12 @@
         },
         {
           "file": "GunbedVisuals-26.1-0.3.19.jar",
-          "sha256": "e889751cb783d3bd4b051959fda85ddf8889cc7fdfcff4d8414da5432574acce",
-          "size": 169544,
+          "sha256": "1962e5a094d8f888e1b2ca518c7c6e48b0edd1079c14bd8d04d2178e5804c2ab",
+          "size": 169699,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.23/GunbedVisuals-26.1-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.23/GunbedVisuals-26.1-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.23/GunbedVisuals-26.1-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.24/GunbedVisuals-26.1-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.24/GunbedVisuals-26.1-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.24/GunbedVisuals-26.1-0.3.19.jar"
           ]
         },
         {
@@ -290,7 +290,7 @@
     },
     "26.1.1": {
       "version": "26.1.1",
-      "filename": "Gunbed-Zombie-Modpack-26.1.1-0.3.23.zip",
+      "filename": "Gunbed-Zombie-Modpack-26.1.1-0.3.24.zip",
       "files": [
         {
           "file": "fabric-api-0.155.3+26.1.2.jar",
@@ -304,12 +304,12 @@
         },
         {
           "file": "GunbedVisuals-26.1.1-0.3.19.jar",
-          "sha256": "b87428b741197dd17d04cb08ca2b0afbbef90dd078c86167d667f513e82c2a25",
-          "size": 169549,
+          "sha256": "d9cb15848ab48d7e276ef17765e5c7d5575e9b1a807a0c60db15ab1467aec617",
+          "size": 169704,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.23/GunbedVisuals-26.1.1-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.23/GunbedVisuals-26.1.1-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.23/GunbedVisuals-26.1.1-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.24/GunbedVisuals-26.1.1-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.24/GunbedVisuals-26.1.1-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.24/GunbedVisuals-26.1.1-0.3.19.jar"
           ]
         },
         {
@@ -347,7 +347,7 @@
     },
     "26.1.2": {
       "version": "26.1.2",
-      "filename": "Gunbed-Zombie-Modpack-26.1.2-0.3.23.zip",
+      "filename": "Gunbed-Zombie-Modpack-26.1.2-0.3.24.zip",
       "files": [
         {
           "file": "fabric-api-0.155.3+26.1.2.jar",
@@ -361,12 +361,12 @@
         },
         {
           "file": "GunbedVisuals-26.1.2-0.3.19.jar",
-          "sha256": "0919ea8b17757be43b859199e37a432bbba77f26f37f1737305782ede3dec720",
-          "size": 169551,
+          "sha256": "c7e77c06781dd9660fe7e94bdf13d5c6b340c60b45b535744b166931725b629c",
+          "size": 169706,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.23/GunbedVisuals-26.1.2-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.23/GunbedVisuals-26.1.2-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.23/GunbedVisuals-26.1.2-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.24/GunbedVisuals-26.1.2-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.24/GunbedVisuals-26.1.2-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.24/GunbedVisuals-26.1.2-0.3.19.jar"
           ]
         },
         {
@@ -404,7 +404,7 @@
     },
     "26.2": {
       "version": "26.2",
-      "filename": "Gunbed-Zombie-Modpack-26.2-0.3.23.zip",
+      "filename": "Gunbed-Zombie-Modpack-26.2-0.3.24.zip",
       "files": [
         {
           "file": "fabric-api-0.161.0+26.2.jar",
@@ -418,12 +418,12 @@
         },
         {
           "file": "GunbedVisuals-26.2-0.3.19.jar",
-          "sha256": "989038d1004ccc9a3c94dfb3b3ca5fabe0ca17f83a1e0bc439ed28340173a215",
-          "size": 169567,
+          "sha256": "6625cdf4d1841d46ba4d168ce8c6522915b6fc1a31a78a0499e50867dce5a226",
+          "size": 169693,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.23/GunbedVisuals-26.2-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.23/GunbedVisuals-26.2-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.23/GunbedVisuals-26.2-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.24/GunbedVisuals-26.2-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.24/GunbedVisuals-26.2-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.24/GunbedVisuals-26.2-0.3.19.jar"
           ]
         },
         {
@@ -461,7 +461,7 @@
     },
     "26.3": {
       "version": "26.3",
-      "filename": "Gunbed-Zombie-Modpack-26.3-0.3.23.zip",
+      "filename": "Gunbed-Zombie-Modpack-26.3-0.3.24.zip",
       "files": [
         {
           "file": "fabric-api-0.165.2+26.3.jar",
@@ -475,12 +475,12 @@
         },
         {
           "file": "GunbedVisuals-26.3-0.3.19.jar",
-          "sha256": "3d2da44cb1b40a307ad9791d742f1eae4e58d15243c39c4a174c6fe0fd080dad",
-          "size": 169616,
+          "sha256": "5a0af2dda45c1f3e05dae07d0d3fbd77adc8cbe414937dd54b3acf3c19a9f384",
+          "size": 169743,
           "urls": [
-            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.23/GunbedVisuals-26.3-0.3.19.jar",
-            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.23/GunbedVisuals-26.3-0.3.19.jar",
-            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.23/GunbedVisuals-26.3-0.3.19.jar"
+            "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.24/GunbedVisuals-26.3-0.3.19.jar",
+            "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.24/GunbedVisuals-26.3-0.3.19.jar",
+            "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.24/GunbedVisuals-26.3-0.3.19.jar"
           ]
         },
         {
