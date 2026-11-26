@@ -1,6 +1,6 @@
 {
-  "tag": "v0.3.29",
-  "asset_base": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.29",
+  "tag": "v0.3.30",
+  "asset_base": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.30",
   "sources": {
     "GunbedVisuals-source.zip": {
       "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.13/GunbedVisuals-source.zip",
@@ -65,15 +65,15 @@
       ]
     },
     "Zombie-renewal-source.zip": {
-      "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.29/Zombie-renewal-source.zip",
-      "sha256": "807669d5fa69c19adb1f50475d73fe6cfe72500e83a6ce1a7c5834ff5edb1e0e",
-      "size": 549193,
+      "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.30/Zombie-renewal-source.zip",
+      "sha256": "4c7958818412e3d5f726eed775589c6c8787c2a7017d5d8b8ead07ba11edaf4e",
+      "size": 565098,
       "mirrors": [
-        "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.29/Zombie-renewal-source.zip"
+        "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.30/Zombie-renewal-source.zip"
       ]
     }
   },
-  "client_version": "0.3.19-zombie-r9",
+  "client_version": "0.3.19-zombie-r10",
   "mirrors": {
     "24c2c9c7fa1f969982ddf142a5f17b356b88a5eb1cb1ece9c287a588f3451233": [
       "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.13/fabric-api-0.136.1+1.21.8.jar",
@@ -734,9 +734,46 @@
     "d21c66a1c75566a6253a853ea074f3fabafb84e920d453411d24e6d6dbafb21c": [
       "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.29/GunbedVisuals-26.3-0.3.19.jar",
       "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.29/GunbedVisuals-26.3-0.3.19.jar"
+    ],
+    "428bf5bf2bb1281a76807c325011950b0f503c31f2d6bdba97a375b295a97678": [
+      "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.30/GunbedVisuals-1.21.8-0.3.19.jar",
+      "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.30/GunbedVisuals-1.21.8-0.3.19.jar"
+    ],
+    "4e9ee81d7a2f57fa45154d2de4b6dd4a417235fb02fd1467e89823d710718db8": [
+      "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.30/GunbedVisuals-1.21.9-0.3.19.jar",
+      "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.30/GunbedVisuals-1.21.9-0.3.19.jar"
+    ],
+    "fd0fc134eafedcd3d768547768f7be385ca82a23a81679340d5387f0370bb2ff": [
+      "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.30/GunbedVisuals-1.21.10-0.3.19.jar",
+      "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.30/GunbedVisuals-1.21.10-0.3.19.jar"
+    ],
+    "e5a514f61a0485dbc48ba308644f8af61efb19be3b5df0552c679b8e6a387c69": [
+      "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.30/GunbedVisuals-1.21.11-0.3.19.jar",
+      "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.30/GunbedVisuals-1.21.11-0.3.19.jar"
+    ],
+    "aedab3fec7aea31248d3bca9bb635179ba64fde65f6d1758a5a785441475a66c": [
+      "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.30/GunbedVisuals-26.1-0.3.19.jar",
+      "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.30/GunbedVisuals-26.1-0.3.19.jar"
+    ],
+    "995f63eb6bfa841ebe6ff85d440bbdf11d24588b448c49d0e31c076dbb78da13": [
+      "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.30/GunbedVisuals-26.1.1-0.3.19.jar",
+      "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.30/GunbedVisuals-26.1.1-0.3.19.jar"
+    ],
+    "c174dec81552d987813a12be6ebb560c09273c48c7432295d16af2b6e535f4cf": [
+      "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.30/GunbedVisuals-26.1.2-0.3.19.jar",
+      "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.30/GunbedVisuals-26.1.2-0.3.19.jar"
+    ],
+    "2aa4dd2c654caf8c4ea2b9aca0596d5e52cc93630ee8dfae270369dc3d879837": [
+      "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.30/GunbedVisuals-26.2-0.3.19.jar",
+      "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.30/GunbedVisuals-26.2-0.3.19.jar"
+    ],
+    "6dade9f070f6feab81403eba033ee63cb57620ba62901e41a225b66c759c8af7": [
+      "https://churigame1234-ux.github.io/gunbed-installer/files/v0.3.30/GunbedVisuals-26.3-0.3.19.jar",
+      "https://raw.githubusercontent.com/churigame1234-ux/gunbed-installer/main/docs/files/v0.3.30/GunbedVisuals-26.3-0.3.19.jar"
     ]
   },
   "asset_bases": [
+    "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.30",
     "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.29",
     "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.28",
     "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.27",
