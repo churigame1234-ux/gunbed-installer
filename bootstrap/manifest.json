@@ -14,9 +14,9 @@
         {
           "file": "GunbedVisuals-1.21.8-0.3.19.jar",
           "path": "1.21.8/mods/GunbedVisuals-1.21.8-0.3.19.jar",
-          "sha256": "4ad3a4a28644f3f41d371785fa53a7bb0549effb648fb422401897b0dfd81d79",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.31/GunbedVisuals-1.21.8-0.3.19.jar",
-          "size": 398821
+          "sha256": "d9a18b4d1cd7cc767d3553ed2a7778c22e80b029764e9ec53ca858b4942ce950",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.32/GunbedVisuals-1.21.8-0.3.19.jar",
+          "size": 402110
         },
         {
           "file": "nuit-fabric-1.0.0-beta.1+mc1.21.8.jar",
@@ -103,9 +103,9 @@
         {
           "file": "GunbedVisuals-1.21.9-0.3.19.jar",
           "path": "1.21.9/mods/GunbedVisuals-1.21.9-0.3.19.jar",
-          "sha256": "e6966a12ace0802567da80dcd1e0e63777b46d47c4a031d47004ec9983d071dc",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.31/GunbedVisuals-1.21.9-0.3.19.jar",
-          "size": 399493
+          "sha256": "b95a89387c6419d3cc0fab4351b0c750767abf0970a5a2ed6e21a5dda38b027d",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.32/GunbedVisuals-1.21.9-0.3.19.jar",
+          "size": 402782
         },
         {
           "file": "nuit-fabric-1.21.9-1.0.0-beta.1+gunbed.1.21.9.jar",
@@ -192,9 +192,9 @@
         {
           "file": "GunbedVisuals-1.21.10-0.3.19.jar",
           "path": "1.21.10/mods/GunbedVisuals-1.21.10-0.3.19.jar",
-          "sha256": "2f673b902bc45fd57c0bec0c46e4c13a8e00f1df9586ba08db181b738609a1df",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.31/GunbedVisuals-1.21.10-0.3.19.jar",
-          "size": 399495
+          "sha256": "9b4f97ee2596e3e337344017cc80a3ae174c15f69fb3ebecd3f74c9c1cfae80e",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.32/GunbedVisuals-1.21.10-0.3.19.jar",
+          "size": 402784
         },
         {
           "file": "nuit-fabric-1.21.10-1.0.0-beta.1+gunbed.1.21.10.jar",
@@ -281,9 +281,9 @@
         {
           "file": "GunbedVisuals-1.21.11-0.3.19.jar",
           "path": "1.21.11/mods/GunbedVisuals-1.21.11-0.3.19.jar",
-          "sha256": "3244113f8e1ffe7b7f8aba644f6bcd6d207c568d1004c6275402e601c9da105f",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.31/GunbedVisuals-1.21.11-0.3.19.jar",
-          "size": 399514
+          "sha256": "197f8c5aa962491b34ff5f126cda1e540b65452f157a5b276dc56cc0338c7d18",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.32/GunbedVisuals-1.21.11-0.3.19.jar",
+          "size": 402803
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc1.21.11.jar",
@@ -370,9 +370,9 @@
         {
           "file": "GunbedVisuals-26.1-0.3.19.jar",
           "path": "26.1/mods/GunbedVisuals-26.1-0.3.19.jar",
-          "sha256": "0237d6d4877f741b8a752e6b7aa0d576382ae95f20fe6bdd8eefaf0946574875",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.31/GunbedVisuals-26.1-0.3.19.jar",
-          "size": 400337
+          "sha256": "bdf6a6e3209aede2901a61576187d3598cba6186d06a9262792df47cf3fa2d4f",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.32/GunbedVisuals-26.1-0.3.19.jar",
+          "size": 403650
         },
         {
           "file": "nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
@@ -453,9 +453,9 @@
         {
           "file": "GunbedVisuals-26.1.1-0.3.19.jar",
           "path": "26.1.1/mods/GunbedVisuals-26.1.1-0.3.19.jar",
-          "sha256": "752b79b90e7e9363652a39c64c58673d6d35b87dd9cffaf88ccf211ad4aca1ed",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.31/GunbedVisuals-26.1.1-0.3.19.jar",
-          "size": 400342
+          "sha256": "bdd2ef058cf284bfc9b38d8fe5cc43d47bb2b2c0557833d6779385b049af9b28",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.32/GunbedVisuals-26.1.1-0.3.19.jar",
+          "size": 403655
         },
         {
           "file": "nuit-fabric-1.0.0-beta.3+mc26.1.2.jar",
@@ -536,9 +536,9 @@
         {
           "file": "GunbedVisuals-26.1.2-0.3.19.jar",
           "path": "26.1.2/mods/GunbedVisuals-26.1.2-0.3.19.jar",
-          "sha256": "4226fb1a5853fd58efe1757044cd6df632c8a354b93b81d1e0d8a0120d741b37",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.31/GunbedVisuals-26.1.2-0.3.19.jar",
-          "size": 400345
+          "sha256": "d25322711019d3d8bab42198fada31abe27503ce88277f25ef9f2be53e0a1d02",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.32/GunbedVisuals-26.1.2-0.3.19.jar",
+          "size": 403658
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.1.2.jar",
@@ -619,9 +619,9 @@
         {
           "file": "GunbedVisuals-26.2-0.3.19.jar",
           "path": "26.2/mods/GunbedVisuals-26.2-0.3.19.jar",
-          "sha256": "f9ab2000fc0f14d45e5c35ad921ed806b7401204c49fbcc5dcdbd2a4187c25ef",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.31/GunbedVisuals-26.2-0.3.19.jar",
-          "size": 400316
+          "sha256": "dc276142a193b90eca554232a7310bf06184fedca8886fc7011ef8b959985c94",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.32/GunbedVisuals-26.2-0.3.19.jar",
+          "size": 403631
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.2.jar",
@@ -702,9 +702,9 @@
         {
           "file": "GunbedVisuals-26.3-0.3.19.jar",
           "path": "26.3/mods/GunbedVisuals-26.3-0.3.19.jar",
-          "sha256": "04a3ce5c33f26a47ae9ef8e6bfa115eb659beeb2538d59f75b5c2a94c2b78809",
-          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.31/GunbedVisuals-26.3-0.3.19.jar",
-          "size": 400358
+          "sha256": "7ebbd01997203d82ddd137b1afc824aeabed62b1a63e49519775c2b7c6be84b5",
+          "url": "https://github.com/churigame1234-ux/gunbed-installer/releases/download/v0.3.32/GunbedVisuals-26.3-0.3.19.jar",
+          "size": 403673
         },
         {
           "file": "nuit-fabric-1.0.0-beta.6+mc26.3.jar",
