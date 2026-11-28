@@ -42,6 +42,7 @@ byId('server').addEventListener('click',async()=>{
  catch{document.querySelector('.copy-label').textContent='mzs123.mcv.kr';byId('copy-status').textContent='서버 주소: mzs123.mcv.kr';}
 });
 function updateInstaller(data){
+ document.querySelectorAll('[data-installer-version]').forEach(label=>label.textContent=data.version);
  byId('download-size').textContent=(data.online_bytes/1048576).toFixed(1)+' MB · Windows EXE';
  byId('mirror-zip').href=data.archive.url;
  byId('installer-hash').textContent=data.versions.find(v=>v.version===selected).sha256;
