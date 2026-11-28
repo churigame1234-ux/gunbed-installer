@@ -2,7 +2,6 @@
 import argparse,json,os,queue,re,sys,threading,traceback
 from pathlib import Path
 from engine import Installer
-from processes import stop_launchers
 
 def resources():return Path(getattr(sys,'_MEIPASS',Path(__file__).resolve().parent))/'payload'
 def main():
@@ -18,7 +17,6 @@ def main():
         result={}
         try:
             engine.locations(root,args.version,args.game_dir)
-            stop_launchers()
             result=engine.install(root,args.version,args.game_dir)
         except Exception as e:result={'success':False,'error':str(e)}
         if args.result_json:Path(args.result_json).write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
@@ -26,14 +24,14 @@ def main():
         return 0 if result['success'] else 1
     import tkinter as tk
     from tkinter import ttk,filedialog,messagebox
-    window=tk.Tk();window.title('Gunbed · 좀비 통합 설치기 0.3.33');window.geometry('740x680');window.minsize(680,650);window.configure(bg='#0f172a')
+    window=tk.Tk();window.title('Gunbed · 좀비 통합 설치기 0.3.34');window.geometry('740x680');window.minsize(680,650);window.configure(bg='#0f172a')
     window.option_add('*Font',('맑은 고딕',10))
     style=ttk.Style(window);style.theme_use('clam')
     style.configure('TFrame',background='#0f172a');style.configure('TLabel',background='#0f172a',foreground='#e2e8f0');style.configure('Sub.TLabel',foreground='#94a3b8');style.configure('Title.TLabel',font=('맑은 고딕',23,'bold'),foreground='#f8fafc');style.configure('Accent.TButton',font=('맑은 고딕',12,'bold'),padding=12,background='#38bdf8',foreground='#082f49');style.configure('TButton',padding=6);style.configure('TProgressbar',background='#38bdf8')
     frame=ttk.Frame(window,padding=28);frame.pack(fill='both',expand=True)
     ttk.Label(frame,text='Gunbed · 좀비 통합 설치기',style='Title.TLabel').pack(anchor='w')
     ttk.Label(frame,text='게임 버전을 고르면 Loader와 필수 모드를 함께 설치합니다.',style='Sub.TLabel').pack(anchor='w',pady=(5,22))
-    version=tk.StringVar(value=args.version);directory=tk.StringVar(value=str(root));target=tk.StringVar();footer=tk.StringVar();status=tk.StringVar(value='설치를 누르면 남아 있는 Minecraft Launcher를 자동 종료합니다.')
+    version=tk.StringVar(value=args.version);directory=tk.StringVar(value=str(root));target=tk.StringVar();footer=tk.StringVar();status=tk.StringVar(value='설치를 누르면 런처를 정리하고 설치 파일의 접근 권한을 확인합니다.')
     ttk.Label(frame,text='마인크래프트 버전').pack(anchor='w')
     combo=ttk.Combobox(frame,textvariable=version,values=engine.versions,state='readonly',font=('맑은 고딕',12));combo.pack(fill='x',pady=(5,15))
     ttk.Label(frame,text='설치할 게임 폴더 또는 mods 폴더').pack(anchor='w')
@@ -55,7 +53,6 @@ def main():
     def worker(root_path,selected_version):
         try:
             engine.locations(root_path,selected_version,args.game_dir)
-            stop_launchers(lambda m:messages.put(('log',m)))
             result=engine.install(root_path,selected_version,args.game_dir,lambda m:messages.put(('log',m)))
             messages.put(('success',result))
         except Exception as e:messages.put(('error',str(e)))

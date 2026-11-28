@@ -92,6 +92,8 @@ class Installer:
         incoming['mzs_tissou_local']=('Tissou-local.jar',local_assets(log))
         assert set(incoming)==IDS
         libraries=[(entry,self.verified(entry['path'],entry['sha256'])) for entry in chosen['libraries']]
+        from processes import stop_launchers
+        stop_launchers(log)
         old_profiles=self.profiles(root)
         originals={};duplicates=[];untouched={};readonly={}
         def existing_mod_bytes(path):
@@ -109,6 +111,8 @@ class Installer:
         log('기존 모드 파일의 사용 중 여부와 폴더 쓰기 권한 확인 중…')
         preflight_files(duplicates+[mods/name for name,data in incoming.values() if (mods/name).exists() and existing_mod_bytes(mods/name)!=data])
         probe_directory(mods)
+        preflight_files([root/name for name in PROFILE_FILES],allow_readonly=False)
+        probe_directory(root)
         stamp=datetime.datetime.now().strftime('%Y%m%d-%H%M%S')+'-'+uuid.uuid4().hex[:6]
         backup=root/'gunbed-backups'/stamp
         changed=[]
@@ -143,6 +147,7 @@ class Installer:
                 path.unlink()
             for name,data in incoming.values():write(mods/name,data)
             log('기존 실행 설정의 Loader 업데이트 및 Gunbed 실행 설정 등록 중…')
+            old_profiles=self.profiles(root)  # Preserve any launcher changes made while files were prepared.
             profile_names=list(old_profiles) or ['launcher_profiles.json']
             now=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='milliseconds').replace('+00:00','Z')
             updated=[]

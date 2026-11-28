@@ -59,7 +59,7 @@ def access_error(path, error):
     if users or code in (32, 33):
         owners = '\n'.join(p['name'] + ' (PID ' + str(p['pid']) + ')' for p in users)
         return InstallAccessError(
-            '모드 파일을 다른 프로그램이 사용 중이라 교체할 수 없습니다.\n' + str(path) +
+            '설치 대상 파일을 다른 프로그램이 사용 중이라 교체할 수 없습니다.\n' + str(path) +
             ('\n\n사용 중인 프로그램:\n' + owners if owners else '') +
             '\n\n런처뿐 아니라 해당 마인크래프트 게임 창도 종료한 뒤 다시 설치하세요. '
             '작업 관리자에서는 위 PID를 확인하세요. 관리자 실행만으로 파일 잠금은 풀리지 않습니다.')
@@ -69,7 +69,7 @@ def access_error(path, error):
         '계속 거부되면 Windows 보안의 보호 기록에서 설치기 차단 여부를 확인하세요.\n' + str(error))
 
 
-def preflight_files(paths):
+def preflight_files(paths,allow_readonly=True):
     """Request delete/rename access but do not rename, truncate or delete any file."""
     if os.name != 'nt':
         return
@@ -86,7 +86,7 @@ def preflight_files(paths):
         handle = kernel.CreateFileW(str(path), 0x10000, 7, None, 3, 0, None)
         if handle == c.c_void_p(-1).value:
             error = c.WinError(c.get_last_error())
-            if error.winerror == 5 and path.stat().st_file_attributes & stat.FILE_ATTRIBUTE_READONLY:
+            if allow_readonly and error.winerror == 5 and path.stat().st_file_attributes & stat.FILE_ATTRIBUTE_READONLY:
                 # Only a verified required mod reaches this point. Its read-only flag
                 # is cleared after its backup is durable, inside the transaction.
                 if not file_users([path]):

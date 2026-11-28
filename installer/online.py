@@ -70,6 +70,4 @@ class OnlineInstaller(Installer):
     def install(self,root,version,game_dir=None,log=lambda message:None):
         self.locations(root,version,game_dir)
         self.prepare(version,log)
-        from processes import stop_launchers
-        stop_launchers(log)
         return super().install(root,version,game_dir,log)
